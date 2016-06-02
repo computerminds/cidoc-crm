@@ -10,3 +10,4 @@ matrix:
     - php: hhvm
 install:
  - composer install
+script: phpunit tests
