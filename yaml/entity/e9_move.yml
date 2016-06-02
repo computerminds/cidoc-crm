@@ -1,0 +1,8 @@
+---
+label: E9 Move
+superclasses:
+  - e7_activity
+properties:
+  - p25_moved
+  - p26_moved_to
+  - p27_moved_from
