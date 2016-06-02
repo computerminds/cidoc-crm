@@ -1,0 +1,7 @@
+---
+label: E5 Event
+superclasses:
+  - e4_period
+properties:
+  - p11_had_participant
+  - p12_occurred_in_the_presence_of

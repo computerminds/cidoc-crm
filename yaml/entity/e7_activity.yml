@@ -1,0 +1,15 @@
+---
+label: E7 Activity
+superclasses:
+  - e5_event
+properties:
+  - p14_carried_out_by
+  - p15_was_influenced_by
+  - p16_used_specific_object
+  - p17_was_motivated_by
+  - p19_was_intended_use_of
+  - p20_had_specific_purpose
+  - p21_had_general_purpose
+  - p32_used_general_technique
+  - p125_used_object_of_type
+  - p134_continued

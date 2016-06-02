@@ -1,0 +1,11 @@
+---
+label: E4 Period
+superclasses:
+  - e2_temporal_entity
+properties:
+  - p7_took_place_at
+  - p8_took_place_on_or_within
+  - p9_consists_of
+  - p10_falls_within
+  - p132_overlaps_with
+  - p133_is_separated_from

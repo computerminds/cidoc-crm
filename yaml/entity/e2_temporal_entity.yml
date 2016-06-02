@@ -1,0 +1,14 @@
+---
+label: E2 Temporal Entity
+superclasses:
+  - e1_crm_entity
+abstract: true
+properties:
+  - p4_has_time_span
+  - p114_is_equal_in_time_to
+  - p115_finishes
+  - p116_starts
+  - p117_occurs_during
+  - p118_overlaps_in_time_with
+  - p119_meets_in_time_with
+  - p120_occurs_before

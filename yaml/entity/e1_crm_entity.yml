@@ -1,0 +1,9 @@
+---
+label: E1 CRM Entity
+abstract: true
+properties:
+  - p1_is_identified_by
+  - p2_has_type
+  - p3_has_note
+  - p48_has_preferred_identifier
+  - p137_exemplifies
