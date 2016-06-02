@@ -1,0 +1,4 @@
+---
+label: E62 String
+superclasses:
+  - e59_primitive_value
