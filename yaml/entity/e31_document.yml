@@ -1,0 +1,6 @@
+---
+label: E31 Document
+superclasses:
+  - e73_information_object
+properties:
+  - p70_documents

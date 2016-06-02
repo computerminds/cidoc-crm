@@ -1,0 +1,7 @@
+---
+label: E12 Production
+superclasses:
+  - e11_modification
+  - e63_beginning_of_existence
+properties:
+  - p108_has_produced

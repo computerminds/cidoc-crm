@@ -1,0 +1,7 @@
+---
+label: E33 Linguistic Object
+superclasses:
+  - e73_information_object
+properties:
+  - p72_has_language
+  - p73_has_translation

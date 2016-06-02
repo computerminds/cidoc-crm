@@ -1,0 +1,5 @@
+---
+label: E22 Man-Made Object
+superclasses:
+  - e19_physical_object
+  - e24_physical_man_made_thing

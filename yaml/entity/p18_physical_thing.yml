@@ -1,0 +1,15 @@
+---
+label: E18 Physical Thing
+superclasses:
+  - e72_legal_object
+properties:
+  - p44_has_condition
+  - p45_consists_of
+  - p46_is_composed_of
+  - p49_has_former_or_current_keeper
+  - p50_has_current_keeper
+  - p51_has_former_or_current_owner
+  - p52_has_current_owner
+  - p53_has_former_or_current_location
+  - p58_has_section_definition
+  - p59_has_section

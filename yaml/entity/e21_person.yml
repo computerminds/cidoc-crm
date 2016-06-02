@@ -1,0 +1,5 @@
+---
+label: E21 Person
+superclasses:
+  - e20_biological_object
+  - e39_actor

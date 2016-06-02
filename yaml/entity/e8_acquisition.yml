@@ -1,0 +1,8 @@
+---
+label: E8 Acquisition
+superclasses:
+  - e7_activity
+properties:
+  - p22_transferred_title_to
+  - p23_transferred_title_from
+  - p24_transferred_title_of

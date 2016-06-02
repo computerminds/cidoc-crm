@@ -1,0 +1,9 @@
+---
+label: E19 Physical Object
+superclasses:
+  - e18_physical_thing
+properties:
+  - p54_has_current_permanent_location
+  - p55_has_current_location
+  - p56_bears_feature
+  - p57_has_number_of_parts

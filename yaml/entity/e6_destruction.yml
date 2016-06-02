@@ -1,0 +1,6 @@
+---
+label: E6 Descruction
+superclasses:
+  - e64_end_of_existence
+properties:
+  - p13_destroyed

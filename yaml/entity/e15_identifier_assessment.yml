@@ -1,0 +1,8 @@
+---
+label: E15 Identifier Assessment
+superclasses:
+  - e13_attribute_assignment
+properties:
+  - p37_assigned
+  - p38_deassigned
+  - p142_used_constituent

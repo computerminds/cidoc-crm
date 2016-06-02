@@ -1,0 +1,7 @@
+---
+label: E11 Modification
+superclasses:
+  - e7_activity
+properties:
+  - p31_has_modified
+  - p126_employed

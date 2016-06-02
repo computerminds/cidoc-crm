@@ -1,0 +1,6 @@
+---
+label: E28 Conceptual Object
+superclasses:
+  - e71_man_made_thing
+properties:
+  - p149_is_identified_by

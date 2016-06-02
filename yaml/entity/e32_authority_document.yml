@@ -1,0 +1,6 @@
+---
+label: E32 Authority Document
+superclasses:
+  - e31_document
+properties:
+  - p71_lists

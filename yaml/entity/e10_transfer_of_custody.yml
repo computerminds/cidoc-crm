@@ -1,0 +1,8 @@
+---
+label: E10 Transfer of Custody
+superclasses:
+  - e7_activity
+properties:
+  - p28_custody_surrenderred_by
+  - p29_custody_received_by
+  - p30_transferred_custody_of

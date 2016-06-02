@@ -1,0 +1,5 @@
+---
+label: E34 Inscription
+superclasses:
+  - e33_linguistic_object
+  - e37_mark

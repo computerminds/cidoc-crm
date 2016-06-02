@@ -1,0 +1,7 @@
+---
+label: E29 Design or Procedure
+superclasses:
+  - e73_information_object
+properties:
+  - p68_forsees_use_of
+  - p69_is_associated_with

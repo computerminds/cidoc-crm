@@ -1,0 +1,5 @@
+---
+label: E45 Address
+superclasses:
+  - e44_place_appellation
+  - e51_contact_point

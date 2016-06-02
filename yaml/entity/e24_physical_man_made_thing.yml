@@ -1,0 +1,9 @@
+---
+label: E24 Physical Man-Made Thing
+superclasses:
+  - e18_physical_thing
+  - e71_man_made_thing
+properties:
+  - p62_depicts
+  - p65_shows_visual_item
+  - p128_carries

@@ -1,0 +1,7 @@
+---
+label: E14 Condition Assessment
+superclasses:
+  - e13_attribute_assignment
+properties:
+  - p34_concerned
+  - p35_has_identified

@@ -1,0 +1,5 @@
+---
+label: E25 Man-Made Feature
+superclasses:
+  - e24_physical_man_made_thing
+  - e26_physical_feature

@@ -1,0 +1,7 @@
+---
+label: E13 Attribute Assignment
+superclasses:
+  - e7_activity
+properties:
+  - p140_assigned_attribute_to
+  - p141_assigned

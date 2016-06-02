@@ -1,0 +1,6 @@
+---
+label: E41 Appellation
+superclasses:
+  - e90_symbolic_object
+properties:
+  - p139_has_alternative_form

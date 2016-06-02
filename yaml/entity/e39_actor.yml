@@ -1,0 +1,9 @@
+---
+label: E39 Actor
+superclasses:
+  - e77_persistent_item
+properties:
+  - p74_has_current_or_former_residence
+  - p75_possesses
+  - p76_has_contact_point
+  - p131_is_identified_by

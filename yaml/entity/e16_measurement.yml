@@ -1,0 +1,7 @@
+---
+label: E16 Measurement
+superclasses:
+  - e13_attribute_assignment
+properties:
+  - p39_measured
+  - p40_observed_dimension
