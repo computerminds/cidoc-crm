@@ -1,0 +1,4 @@
+---
+label: E61 Time Primitive
+superclasses:
+  - e59_primitive_value

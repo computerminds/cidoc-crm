@@ -1,0 +1,6 @@
+---
+label: E68 Death
+superclasses:
+  - b64_end_of_existence
+properties:
+  - p100_was_death_of

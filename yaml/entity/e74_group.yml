@@ -1,0 +1,6 @@
+---
+label: E74 Group
+superclasses:
+  - e39_actor
+properties:
+  - p107_has_current_or_former_member

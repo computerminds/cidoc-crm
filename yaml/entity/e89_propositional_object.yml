@@ -1,0 +1,8 @@
+---
+label: E89 Propositional Object
+superclasses:
+  - e28_conceptual_object
+properties:
+  - p148_has_component
+  - p67_refers_to
+  - p129_is_about

@@ -1,0 +1,6 @@
+---
+label: E78 Collection
+superclasses:
+  - e24_physical_man_made_thing
+properties:
+  - p109_has_current_or_former_curator

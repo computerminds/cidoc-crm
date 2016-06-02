@@ -1,0 +1,6 @@
+---
+label: E64 End of Existence
+superclasses:
+  - e5_event
+properties:
+  - p93_took_out_of_existence

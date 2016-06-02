@@ -1,0 +1,7 @@
+---
+label: E85 Joining
+superclasses:
+  - e7_activity
+properties:
+  - p143_joined
+  - p144_joined_with

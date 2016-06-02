@@ -1,0 +1,6 @@
+---
+label: E63 Beginning of Existence
+superclasses:
+  - e5_event
+properties:
+  - p92_brought_into_existence

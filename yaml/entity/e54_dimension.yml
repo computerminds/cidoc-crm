@@ -1,0 +1,7 @@
+---
+label: E54 Dimension
+superclasses:
+  - e1_crm_entity
+properties:
+  - p90_has_value
+  - p91_has_unit

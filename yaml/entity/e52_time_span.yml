@@ -1,0 +1,13 @@
+---
+label: E52 Time-Span
+superclasses:
+  - e1_crm_entity
+properties:
+  - p78_is_identified_by
+  - p79_beginning_is_qualified_by
+  - p80_end_is_qualified_by
+  - p81_ongoing_throughout
+  - p82_at_some_time_within
+  - p83_had_at_least_duration
+  - p84_had_at_most_duration
+  - p86_falls_within

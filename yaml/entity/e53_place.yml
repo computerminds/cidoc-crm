@@ -1,0 +1,10 @@
+---
+label: E53 Place
+superclasses:
+  - e1_crm_entity
+properties:
+  - p87_is_identified_by
+  - p88_consists_of
+  - p89_falls_within
+  - p121_overlaps_with
+  - p122_borders_with

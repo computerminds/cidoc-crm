@@ -1,0 +1,8 @@
+---
+label: E81 Transformation
+superclasses:
+  - e63_beginning_of_existence
+  - e64_end_of_existence
+properties:
+  - p123_resulted_in
+  - p124_transformed

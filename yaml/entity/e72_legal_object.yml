@@ -1,0 +1,7 @@
+---
+label: E72 Legal Object
+superclasses:
+  - e70_thing
+properties:
+  - p104_is_subject_to
+  - p105_right_held_by

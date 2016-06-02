@@ -1,0 +1,7 @@
+---
+label: E83 Type Creation
+superclasses:
+  - e65_creation
+properties:
+  - p135_created_type
+  - p136_was_based_on

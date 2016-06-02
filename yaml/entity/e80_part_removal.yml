@@ -1,0 +1,7 @@
+---
+label: E80 Part Removal
+superclasses:
+  - e11_modification
+properties:
+  - p112_diminished
+  - p113_removed

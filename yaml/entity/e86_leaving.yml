@@ -1,0 +1,7 @@
+---
+label: E86 Leaving
+superclasses:
+  - e7_activity
+properties:
+  - p145_separated
+  - p146_separated_from

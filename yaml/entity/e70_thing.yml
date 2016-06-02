@@ -1,0 +1,8 @@
+---
+label: E70 Thing
+superclasses:
+  - e77_persistent_item
+properties:
+  - p43_has_dimension
+  - p101_had_as_general_use
+  - p130_shows_features_of

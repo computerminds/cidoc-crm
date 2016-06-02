@@ -1,0 +1,6 @@
+---
+label: E87 Curation Activity
+superclasses:
+  - e7_activity
+properties:
+  - p147_curated

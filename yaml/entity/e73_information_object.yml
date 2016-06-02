@@ -1,0 +1,5 @@
+---
+label: E73 Information Object
+superclasses:
+  - e89_propositional_object
+  - e90_symbolic_object

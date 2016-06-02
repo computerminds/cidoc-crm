@@ -1,0 +1,6 @@
+---
+label: E55 Type
+superclasses:
+  - e28_conceptual_object
+properties:
+  - p127_has_broader_term

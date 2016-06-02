@@ -1,0 +1,8 @@
+---
+label: E67 Birth
+superclasses:
+  - b63_beginning_of_existence
+properties:
+  - p96_by_mother
+  - p97_from_father
+  - p98_brought_into_life

@@ -1,0 +1,7 @@
+---
+label: E71 Man-Made Thing
+superclasses:
+  - e70_thing
+properties:
+  - p102_has_title
+  - p103_was_intended_for

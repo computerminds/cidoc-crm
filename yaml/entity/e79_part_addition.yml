@@ -1,0 +1,7 @@
+---
+label: E79 Part Addition
+superclasses:
+  - e11_modification
+properties:
+  - p110_augmented
+  - p111_added
