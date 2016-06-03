@@ -2,6 +2,6 @@
 label: E65 Creation
 superclasses:
   - e7_activity
-  - b63_beginning_of_existence
+  - e63_beginning_of_existence
 properties:
   - p94_has_created

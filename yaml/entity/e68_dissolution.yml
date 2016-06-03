@@ -1,6 +1,6 @@
 ---
 label: E68 Dissolution
 superclasses:
-  - b64_end_of_existence
+  - e64_end_of_existence
 properties:
   - p99_dissolved
