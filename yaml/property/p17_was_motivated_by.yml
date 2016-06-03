@@ -1,0 +1,6 @@
+---
+label: P17 was motivated by
+domain: e7_activity
+range: e1_crm_entity
+superproperties:
+  - p15_was_influenced_by

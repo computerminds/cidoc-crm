@@ -1,0 +1,6 @@
+---
+label: P11 had participant
+domain: e5_event
+range: e39_actor
+superproperties:
+  - p12_occurred_in_the_presence_of

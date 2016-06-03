@@ -1,0 +1,7 @@
+---
+label: P16 used specific object
+domain: e7_activity
+range: e70_thing
+superproperties:
+  - p12_occurred_in_the_presence_of
+  - p15_was_influenced_by

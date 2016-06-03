@@ -1,0 +1,6 @@
+---
+label: P13 destroyed
+domain: e6_destruction
+range: e18_physical_thing
+superproperties:
+  - p93_took_out_of_existence

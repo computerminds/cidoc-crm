@@ -1,0 +1,6 @@
+---
+label: P26 moved to
+domain: e9_move
+range: e53_place
+superproperties:
+  - p7_took_place_at

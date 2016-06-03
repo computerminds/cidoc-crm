@@ -1,0 +1,4 @@
+---
+label: P4 has time-span
+domain: e2_temporal_entity
+range: e52_time_span

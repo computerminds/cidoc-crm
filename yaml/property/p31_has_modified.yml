@@ -1,0 +1,6 @@
+---
+label: P31 has modified
+domain: e11_modification
+range: e24_physical_man_made_thing
+superproperties:
+  - p12_occurred_in_the_presence_of

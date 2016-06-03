@@ -1,0 +1,6 @@
+---
+label: P27 moved from
+domain: e9_move
+range: e53_place
+superproperties:
+  - p7_took_place_at
