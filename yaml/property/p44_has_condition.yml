@@ -1,0 +1,4 @@
+---
+label: P44 has condition
+domain: e18_physical_thing
+range: e3_condition_state

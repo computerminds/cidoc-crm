@@ -1,0 +1,6 @@
+---
+label: P38 deassigned
+domain: e15_identifier_assignment
+range: e42_identifier
+superproperties:
+  - p141_assigned

@@ -1,0 +1,4 @@
+---
+label: P53 has former or current location
+domain: e18_physical_thing
+range: e53_place

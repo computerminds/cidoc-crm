@@ -1,0 +1,7 @@
+---
+label: P52 has current owner
+domain: e18_physical_thing
+range: e39_actor
+superproperties:
+  - p51_has_former_or_current_owner
+  - p105_right_held_by

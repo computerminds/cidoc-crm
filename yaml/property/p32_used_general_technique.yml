@@ -1,0 +1,6 @@
+---
+label: P32 used general technique
+domain: e7_activity
+range: e55_type
+superproperties:
+  - p125_used_object_of_type

@@ -1,0 +1,6 @@
+---
+label: P65 shows visual item
+domain: e24_physical_man_made_thing
+range: e36_visual_item
+superproperties:
+  - p128_carries

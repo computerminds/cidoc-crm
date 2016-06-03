@@ -1,0 +1,6 @@
+---
+label: P68 foresees use of
+domain: e29_design_or_procedure
+range: e57_material
+superproperties:
+  - p67_refers_to

@@ -1,0 +1,6 @@
+---
+label: P48 has preferred identifier
+domain: e1_crm_entity
+range: e42_identifier
+superproperties:
+  - p1_is_identified_by

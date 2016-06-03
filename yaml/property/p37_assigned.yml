@@ -1,0 +1,6 @@
+---
+label: P37 assigned
+domain: e15_identifier_assignment
+range: e42_identifier
+superproperties:
+  - p141_assigned

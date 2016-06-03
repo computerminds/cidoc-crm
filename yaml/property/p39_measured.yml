@@ -1,0 +1,6 @@
+---
+label: P39 measured
+domain: e16_measurement
+range: e1_crm_entity
+superproperties:
+  - p140_assigned_attribute_to

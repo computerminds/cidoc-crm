@@ -1,0 +1,6 @@
+---
+label: P33 used specific technique
+domain: e7_activity
+range: e29_design_or_procedure
+superproperties:
+  - p16_used_specific_object

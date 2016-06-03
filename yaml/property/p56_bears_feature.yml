@@ -1,0 +1,6 @@
+---
+label: P56 bears feature
+domain: e19_physical_object
+range: e26_physical_feature
+superproperties:
+  - p46_is_composed_of

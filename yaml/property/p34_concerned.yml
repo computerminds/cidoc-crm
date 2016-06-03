@@ -1,0 +1,6 @@
+---
+label: P34 concerned
+domain: e14_condition_assessment
+range: e18_physical_thing
+superproperties:
+  - p140_assigned_attribute_to

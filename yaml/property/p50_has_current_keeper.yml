@@ -1,0 +1,6 @@
+---
+label: P50 has current keeper
+domain: e18_physical_thing
+range: e39_actor
+superproperties:
+  - p49_has_former_or_current_keeper

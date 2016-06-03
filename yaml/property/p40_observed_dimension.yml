@@ -1,0 +1,6 @@
+---
+label: P40 observed dimension
+domain: e16_measurement
+range: e54_dimension
+superproperties:
+  - p141_assigned
