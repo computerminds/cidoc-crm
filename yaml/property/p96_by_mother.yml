@@ -1,0 +1,6 @@
+---
+label: P96 by mother
+domain: e67_birth
+range: e21_person
+superproperties:
+  - p11_had_participant

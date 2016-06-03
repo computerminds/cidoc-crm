@@ -1,0 +1,6 @@
+---
+label: P98 brought into life
+domain: e67_birth
+range: e21_person
+superproperties:
+  - p92_brought_into_existence

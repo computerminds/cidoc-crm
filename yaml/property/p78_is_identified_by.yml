@@ -1,0 +1,6 @@
+---
+label: P78 is identified by
+domain: e52_time_span
+range: e49_time_appellation
+superproperties:
+  - p1_is_identified_by

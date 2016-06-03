@@ -1,0 +1,6 @@
+---
+label: P112 diminished
+domain: e80_part_removal
+range: e24_physical_man_made_thing
+superproperties:
+  - p31_has_modified

@@ -1,0 +1,7 @@
+---
+label: P99 dissolved
+domain: e68_dissolution
+range: e74_group
+superproperties:
+  - p11_had_participant
+  - p93_took_out_of_existence

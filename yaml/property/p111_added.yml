@@ -1,0 +1,7 @@
+---
+label: P111 added
+domain: e79_part_addition
+range: e18_physical_thing
+superproperties:
+  - p12_occurred_in_the_presence_of
+  - p16_used_specific_object

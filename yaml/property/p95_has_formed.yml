@@ -1,0 +1,6 @@
+---
+label: P95 has formed
+domain: e66_formation
+range: e74_group
+superproperties:
+  - p92_brought_into_existence

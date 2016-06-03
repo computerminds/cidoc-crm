@@ -1,0 +1,6 @@
+---
+label: P109 has current or former curator
+domain: e78_collection
+range: e39_actor
+superproperties:
+  - p49_has_former_or_current_keeper

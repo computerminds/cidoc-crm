@@ -1,0 +1,6 @@
+---
+label: P113 removed
+domain: e80_part_removal
+range: e18_physical_thing
+superproperties:
+  - p12_occurred_in_the_presence_of

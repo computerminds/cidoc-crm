@@ -1,0 +1,6 @@
+---
+label: P102 has title
+domain: e71_man_made_thing
+range: e35_title
+superproperties:
+  - p1_is_identified_by

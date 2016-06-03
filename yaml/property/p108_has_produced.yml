@@ -1,0 +1,7 @@
+---
+label: P108 has produced
+domain: e12_production
+range: e24_physical_man_made_thing
+superproperties:
+  - p31_has_modified
+  - p92_brought_into_existence

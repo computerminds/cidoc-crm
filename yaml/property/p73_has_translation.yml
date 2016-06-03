@@ -1,0 +1,6 @@
+---
+label: P73 has translation
+domain: e33_linguistic_object
+range: e33_linguistic_object
+superproperties:
+  - p130_shows_features_of
