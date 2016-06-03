@@ -1,0 +1,6 @@
+---
+label: P128 carries
+domain: e24_physical_man_made_thing
+range: e90_symbolic_object
+superproperties:
+  - p130_shows_features_of

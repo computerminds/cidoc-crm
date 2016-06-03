@@ -1,0 +1,6 @@
+---
+label: P149 is identified by
+domain: e28_conceptual_object
+range: e75_conceptual_object_appellation
+superproperties:
+  - p1_is_identified_by

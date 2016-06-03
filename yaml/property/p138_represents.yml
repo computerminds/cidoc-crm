@@ -1,0 +1,6 @@
+---
+label: P138 represents
+domain: e36_visual_item
+range: e1_crm_entity
+superproperties:
+  - p67_refers_to

@@ -1,0 +1,6 @@
+---
+label: P137 exemplifies
+domain: e1_crm_entity
+range: e55_type
+superproperties:
+  - p2_has_type

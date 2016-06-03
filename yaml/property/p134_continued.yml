@@ -1,0 +1,6 @@
+---
+label: P134 continued
+domain: e7_activity
+range: e7_activity
+superproperties:
+  - p15_was_influenced_by

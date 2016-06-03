@@ -1,0 +1,6 @@
+---
+label: P145 separated
+domain: e86_leaving
+range: e39_actor
+superproperties:
+  - p11_had_participant

@@ -1,0 +1,6 @@
+---
+label: P146 separated from
+domain: e86_leaving
+range: e74_group
+superproperties:
+  - p11_had_participant
