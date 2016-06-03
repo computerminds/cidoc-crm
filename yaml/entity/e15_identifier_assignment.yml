@@ -1,5 +1,5 @@
 ---
-label: E15 Identifier Assessment
+label: E15 Identifier Assignment
 superclasses:
   - e13_attribute_assignment
 properties:

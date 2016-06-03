@@ -1,0 +1,5 @@
+---
+label: E35 Title
+superclasses:
+  - e33_linguistic_object
+  - e41_appellation
