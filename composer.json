@@ -1,5 +1,13 @@
 {
     "name": "computerminds/cidoc-crm",
+    "type": "library",
+    "description": "A representation of the CIDOC-CRM in Yaml and readable via PHP.",
+    "license": "MIT",
+    "authors": [{
+        "name": "Steven Jones",
+        "email": "steven.jones@computerminds.co.uk",
+        "homepage": "https://github.com/darthsteven"
+    }],
     "require": {
         "symfony/yaml": "^3.1"
     },
