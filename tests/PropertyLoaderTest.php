@@ -4,7 +4,7 @@ use ComputerMinds\CIDOC_CRM\PropertyLoader;
 
 class PropertyLoaderTest extends PHPUnit_Framework_TestCase {
 
-  protected $yaml_path = __DIR__ . '/../yaml';
+  protected $yaml_path;
 
   public function __construct($name = '', array $data = array(), $dataName = '') {
     parent::__construct($name, $data, $dataName);
