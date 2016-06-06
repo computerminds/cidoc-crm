@@ -4,11 +4,13 @@ use ComputerMinds\CIDOC_CRM\EntityLoader;
 
 class EntityLoaderTest extends PHPUnit_Framework_TestCase {
 
-  protected $yaml_path = __DIR__ . '/../yaml';
+  protected $yaml_path;
 
-  function setUp() {
+  public function __construct($name = '', array $data = array(), $dataName = '') {
+    parent::__construct($name, $data, $dataName);
     $this->yaml_path = __DIR__ . '/../yaml';
   }
+
 
   /**
    * @dataProvider entityYamlProvider
