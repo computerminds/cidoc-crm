@@ -17,6 +17,15 @@ class Property {
     $this->parsed = Yaml::parse($crm_yaml);
   }
 
+  public function getLabel() {
+    if (isset($this->parsed['label'])) {
+      return $this->parsed['label'];
+    }
+    else {
+      return '';
+    }
+  }
+
   public function domain() {
     if (isset($this->parsed['domain'])) {
       return $this->parsed['domain'];

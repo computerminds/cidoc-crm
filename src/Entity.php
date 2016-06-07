@@ -35,6 +35,15 @@ class Entity {
     }
   }
 
+  public function getLabel() {
+    if (isset($this->parsed['label'])) {
+      return $this->parsed['label'];
+    }
+    else {
+      return '';
+    }
+  }
+
   /**
    * @return mixed
    */
