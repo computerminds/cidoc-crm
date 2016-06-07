@@ -9,7 +9,6 @@ class PropertyLoaderTest extends PHPUnit_Framework_TestCase {
 
   public function __construct($name = '', array $data = array(), $dataName = '') {
     parent::__construct($name, $data, $dataName);
-    $this->yaml_path = __DIR__ . '/../yaml';
     $this->entityFactory = new ComputerMinds\CIDOC_CRM\EntityFactory();
     $this->propertyFactory = new ComputerMinds\CIDOC_CRM\PropertyFactory();
   }
