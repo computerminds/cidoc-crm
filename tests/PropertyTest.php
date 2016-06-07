@@ -2,7 +2,7 @@
 
 use ComputerMinds\CIDOC_CRM\Property;
 
-class PropertyLoaderTest extends PHPUnit_Framework_TestCase {
+class PropertyTest extends PHPUnit_Framework_TestCase {
 
   protected $entityFactory;
   protected $propertyFactory;
@@ -36,6 +36,13 @@ class PropertyLoaderTest extends PHPUnit_Framework_TestCase {
     foreach ($property->superproperties() as $superproperty) {
       $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\Property', $this->propertyFactory->getProperty($superproperty), 'Assert that the superproperty entity: '. $superproperty . ' is defined.');
     }
+  }
+
+  /**
+   * @dataProvider propertyProvider
+   */
+  public function testLabelsDefined(\ComputerMinds\CIDOC_CRM\Property $property) {
+    $this->assertNotEmpty($property->getLabel(), 'Assert that the property has a label.');
   }
 
   public function propertyProvider() {

@@ -2,7 +2,7 @@
 
 use ComputerMinds\CIDOC_CRM\Entity;
 
-class EntityLoaderTest extends PHPUnit_Framework_TestCase {
+class EntityTest extends PHPUnit_Framework_TestCase {
 
   protected $entityFactory;
   protected $propertyFactory;
@@ -29,6 +29,13 @@ class EntityLoaderTest extends PHPUnit_Framework_TestCase {
     foreach ($entity->properties() as $property) {
       $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\Property', $this->propertyFactory->getProperty($property), 'Assert that the property: '. $property . ' is defined.');
     }
+  }
+
+  /**
+   * @dataProvider entityProvider
+   */
+  public function testLabelsDefined(\ComputerMinds\CIDOC_CRM\Entity $entity) {
+    $this->assertNotEmpty($entity->getLabel(), 'Assert that the entity has a label.');
   }
 
   public function entityProvider() {
