@@ -21,14 +21,14 @@ class EntityFactoryTest extends PHPUnit_Framework_TestCase {
 
 
   public function testGetEntity() {
-    $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\EntityLoader', $this->factory->getEntity('e1_top_level'), 'Factory can load test entity.');
-    $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\EntityLoader', $this->factory->getEntity('e2_sub_directory'), 'Factory can load test entity in subdirectory.');
-    $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\EntityLoader', $this->factory->getEntity('e3_yaml_not_yml'), 'Factory can load entity in .yaml not .yml file.');
+    $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\Entity', $this->factory->getEntity('e1_top_level'), 'Factory can load test entity.');
+    $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\Entity', $this->factory->getEntity('e2_sub_directory'), 'Factory can load test entity in subdirectory.');
+    $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\Entity', $this->factory->getEntity('e3_yaml_not_yml'), 'Factory can load entity in .yaml not .yml file.');
 
   }
 
   /**
-   * @expectedException \ComputerMinds\CIDOC_CRM\LoaderException
+   * @expectedException \ComputerMinds\CIDOC_CRM\FactoryException
    */
   public function testFailToGetEntity() {
     $this->factory->getEntity('e2_entity_not_present');

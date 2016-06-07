@@ -15,10 +15,10 @@ class EntityFactory extends YamlFactory {
     // Search the Yaml directories for a matching name.
     if ($filename = $this->findFile($entityName)) {
       // Load the File and pop the result into a class.
-      return new EntityLoader(file_get_contents($filename));
+      return new Entity(file_get_contents($filename));
     }
     else {
-      throw new LoaderException('Could not locate file containing entity: ' . $entityName);
+      throw new FactoryException('Could not locate file containing entity: ' . $entityName);
     }
   }
 

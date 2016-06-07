@@ -2,6 +2,6 @@
 
 namespace ComputerMinds\CIDOC_CRM;
 
-class LoaderException extends \Exception {
+class FactoryException extends \Exception {
 
 }

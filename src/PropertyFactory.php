@@ -15,10 +15,10 @@ class PropertyFactory extends YamlFactory {
     // Search the Yaml directories for a matching name.
     if ($filename = $this->findFile($propertyName)) {
       // Load the File and pop the result into a class.
-      return new PropertyLoader(file_get_contents($filename));
+      return new Property(file_get_contents($filename));
     }
     else {
-      throw new LoaderException('Could not locate file containing property: ' . $propertyName);
+      throw new FactoryException('Could not locate file containing property: ' . $propertyName);
     }
   }
 

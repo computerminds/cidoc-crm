@@ -1,63 +1,52 @@
 <?php
 
-use ComputerMinds\CIDOC_CRM\PropertyLoader;
+use ComputerMinds\CIDOC_CRM\Property;
 
 class PropertyLoaderTest extends PHPUnit_Framework_TestCase {
 
-  protected $yaml_path;
+  protected $entityFactory;
+  protected $propertyFactory;
 
   public function __construct($name = '', array $data = array(), $dataName = '') {
     parent::__construct($name, $data, $dataName);
     $this->yaml_path = __DIR__ . '/../yaml';
+    $this->entityFactory = new ComputerMinds\CIDOC_CRM\EntityFactory();
+    $this->propertyFactory = new ComputerMinds\CIDOC_CRM\PropertyFactory();
   }
 
   /**
-   * @dataProvider propertyYamlProvider
+   * @dataProvider propertyProvider
    */
-  public function testDomainDefined($yamlfile) {
-    $contents = file_get_contents($yamlfile);
-    $entity = new PropertyLoader($contents);
-    $domain = $entity->domain();
-    $this->assertFileExists($this->getYamlPath() . '/entity/' . $domain . '.yml', 'Assert that the entity: '. $domain . ' is defined in YAML.');
+  public function testDomainDefined(\ComputerMinds\CIDOC_CRM\Property $property) {
+    $domain = $property->domain();
+    $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\Entity', $this->entityFactory->getEntity($domain), 'Assert that the domain entity: '. $domain . ' is defined.');
   }
 
   /**
-   * @dataProvider propertyYamlProvider
+   * @dataProvider propertyProvider
    */
-  public function testRangeDefined($yamlfile) {
-    $contents = file_get_contents($yamlfile);
-    $entity = new PropertyLoader($contents);
-    $range = $entity->range();
-    $this->assertFileExists($this->getYamlPath() . '/entity/' . $range . '.yml', 'Assert that the entity: '. $range . ' is defined in YAML.');
+  public function testRangeDefined(\ComputerMinds\CIDOC_CRM\Property $property) {
+    $range = $property->range();
+    $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\Entity', $this->entityFactory->getEntity($range), 'Assert that the range entity: '. $range . ' is defined.');
   }
 
   /**
-   * @dataProvider propertyYamlProvider
+   * @dataProvider propertyProvider
    */
-  public function testSuperpropertiesDefined($yamlfile) {
-    $contents = file_get_contents($yamlfile);
-    $entity = new PropertyLoader($contents);
-    foreach ($entity->superproperties() as $superproperty) {
-      $this->assertFileExists($this->getYamlPath() . '/property/' . $superproperty . '.yml', 'Assert that the superproperty: '. $superproperty . ' is defined in YAML.');
+  public function testSuperpropertiesDefined(\ComputerMinds\CIDOC_CRM\Property $property) {
+    foreach ($property->superproperties() as $superproperty) {
+      $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\Property', $this->propertyFactory->getProperty($superproperty), 'Assert that the superproperty entity: '. $superproperty . ' is defined.');
     }
   }
 
-  /**
-   * @return mixed
-   */
-  public function getYamlPath() {
-    return $this->yaml_path;
-  }
-
-  public function propertyYamlProvider() {
-    $entity_directory = realpath($this->getYamlPath()) . '/property/*.yml';
-    $iterator = new GlobIterator($entity_directory);
-    $files = array();
-    foreach ($iterator as $file) {
-      $files[$file->getFilename()] = array(
-        (string) $file,
+  public function propertyProvider() {
+    $loadedProperties = array();
+    $properties = $this->propertyFactory->listProperties();
+    foreach ($properties as $propertyName) {
+      $loadedProperties[$propertyName] = array(
+        $this->propertyFactory->getProperty($propertyName)
       );
     }
-    return $files;
+    return new ArrayIterator($loadedProperties);
   }
 }

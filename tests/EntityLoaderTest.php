@@ -1,59 +1,34 @@
 <?php
 
-use ComputerMinds\CIDOC_CRM\EntityLoader;
+use ComputerMinds\CIDOC_CRM\Entity;
 
 class EntityLoaderTest extends PHPUnit_Framework_TestCase {
 
-  protected $yaml_path;
   protected $entityFactory;
+  protected $propertyFactory;
 
   public function __construct($name = '', array $data = array(), $dataName = '') {
     parent::__construct($name, $data, $dataName);
-    $this->yaml_path = __DIR__ . '/../yaml';
     $this->entityFactory = new ComputerMinds\CIDOC_CRM\EntityFactory();
+    $this->propertyFactory = new ComputerMinds\CIDOC_CRM\PropertyFactory();
   }
 
   /**
    * @dataProvider entityProvider
    */
-  public function testSuperclassesDefined($entity) {
+  public function testSuperclassesDefined(\ComputerMinds\CIDOC_CRM\Entity $entity) {
     foreach ($entity->superclasses() as $superclass) {
-      $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\EntityLoader', $this->entityFactory->getEntity($superclass), 'Assert that the superclass: '. $superclass . ' is defined.');
+      $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\Entity', $this->entityFactory->getEntity($superclass), 'Assert that the superclass: '. $superclass . ' is defined.');
     }
   }
 
   /**
    * @dataProvider entityProvider
    */
-  public function testPropertiesDefined($entity) {
+  public function testPropertiesDefined(\ComputerMinds\CIDOC_CRM\Entity $entity) {
     foreach ($entity->properties() as $property) {
-      $this->assertFileExists($this->getYamlPath() . '/property/' . $property . '.yml', 'Assert that the property: '. $property . ' is defined in YAML.');
+      $this->assertInstanceOf('\ComputerMinds\CIDOC_CRM\Property', $this->propertyFactory->getProperty($property), 'Assert that the property: '. $property . ' is defined.');
     }
-  }
-
-  /**
-   * @return mixed
-   *
-   * @deprecated 
-   */
-  public function getYamlPath() {
-    return $this->yaml_path;
-  }
-
-  /**
-   * @return array
-   * @deprecated
-   */
-  public function entityYamlProvider() {
-    $entity_directory = realpath($this->getYamlPath()) . '/entity/*.yml';
-    $iterator = new GlobIterator($entity_directory);
-    $files = array();
-    foreach ($iterator as $file) {
-      $files[$file->getFilename()] = array(
-        (string) $file,
-      );
-    }
-    return $files;
   }
 
   public function entityProvider() {
