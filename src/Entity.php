@@ -9,12 +9,22 @@ class Entity {
   protected $crm_yaml;
   protected $parsed;
 
+  protected $entityName;
   /**
    * Entity constructor.
    */
-  public function __construct($crm_yaml) {
+  public function __construct($entityName, $crm_yaml) {
+    $this->entityName = $entityName;
     $this->crm_yaml = $crm_yaml;
     $this->parsed = Yaml::parse($crm_yaml);
+  }
+
+  /**
+   * @return string
+   *   Entity name.
+   */
+  public function getEntityName() {
+    return $this->entityName;
   }
 
   public function superclasses() {

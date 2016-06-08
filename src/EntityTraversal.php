@@ -42,8 +42,39 @@ class EntityTraversal {
   }
 
   public function getSubclasses(Entity $entity) {
+    $subclasses = array();
+    $entityName = $entity->getEntityName();
     foreach ($this->entityFactory->listEntities() as $entity_name) {
-//      if (in_array($entity->))
-    } 
+      $listEntity = $this->entityFactory->getEntity($entity_name);
+      if (in_array($entityName, $listEntity->superclasses())) {
+        $subclasses[] = $listEntity->getEntityName();
+      }
+    }
+    return $subclasses;
+  }
+
+  public function getAllSubclasses(Entity $entity) {
+    $all_subclasses = array();
+    $all_entities = array();
+    $to_traverse = array();
+    $entityName = $entity->getEntityName();
+    foreach ($this->entityFactory->listEntities() as $entity_name) {
+      $all_entities[$entity_name] = $this->entityFactory->getEntity($entity_name);
+      if (in_array($entityName, $all_entities[$entity_name]->superclasses())) {
+        $to_traverse[] = $entity_name;
+      }
+    }
+
+    while (!empty($to_traverse)) {
+      $this_traverse = array_shift($to_traverse);
+      $all_subclasses[$this_traverse] = $this_traverse;
+      foreach ($all_entities as $entity_name => $list_entity) {
+        if (in_array($this_traverse, $list_entity->superclasses()) && !in_array($entity_name, $all_subclasses)) {
+          $to_traverse[] = $entity_name;
+        }
+      }
+    }
+
+    return array_values($all_subclasses);
   }
 }

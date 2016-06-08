@@ -8,13 +8,23 @@ class Property {
 
   protected $crm_yaml;
   protected $parsed;
+  protected $propertyName;
 
   /**
    * Entity constructor.
    */
-  public function __construct($crm_yaml) {
+  public function __construct($propertyName, $crm_yaml) {
+    $this->propertyName = $propertyName;
     $this->crm_yaml = $crm_yaml;
     $this->parsed = Yaml::parse($crm_yaml);
+  }
+
+  /**
+   * @return string
+   *   The property name.
+   */
+  public function getPropertyName() {
+    return $this->propertyName;
   }
 
   public function getLabel() {
