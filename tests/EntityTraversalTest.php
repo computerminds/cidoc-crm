@@ -5,7 +5,6 @@ use ComputerMinds\CIDOC_CRM\Entity;
 class EntityTraversalTest extends PHPUnit_Framework_TestCase {
 
   protected $entityFactory;
-  protected $propertyFactory;
 
   public function __construct($name = '', array $data = array(), $dataName = '') {
     parent::__construct($name, $data, $dataName);
@@ -13,7 +12,6 @@ class EntityTraversalTest extends PHPUnit_Framework_TestCase {
       __DIR__ . '/yaml',
     );
     $this->entityFactory = new ComputerMinds\CIDOC_CRM\EntityFactory($searchDirectories);
-    $this->propertyFactory = new ComputerMinds\CIDOC_CRM\PropertyFactory($searchDirectories);
   }
 
   public function testGetAllSuperclasses() {
