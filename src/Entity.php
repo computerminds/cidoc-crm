@@ -51,5 +51,4 @@ class Entity {
     return $this->crm_yaml;
   }
 
-
 }

@@ -1,0 +1,5 @@
+---
+label: E6 Other Subsubclass
+superclasses:
+  - e4_subclass
+  - e5_subsubclass
