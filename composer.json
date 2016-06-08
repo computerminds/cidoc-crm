@@ -14,12 +14,6 @@
     "require-dev" : {
       "phpunit/phpunit": "~4.0|~5.0"
     },
-    "authors": [
-        {
-            "name": "Steven Jones",
-            "email": "steven.jones@computerminds.co.uk"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "ComputerMinds\\CIDOC_CRM\\": "src/"

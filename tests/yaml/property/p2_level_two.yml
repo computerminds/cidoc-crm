@@ -1,0 +1,6 @@
+---
+label: P2 Level two
+domain: e1_top_level
+range: e4_subclass
+superproperties:
+  - p1_level_one

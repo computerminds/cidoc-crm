@@ -1,0 +1,4 @@
+---
+label: E4 Subclass
+superclasses:
+ - e1_top_level
