@@ -4,3 +4,4 @@ domain: e16_measurement
 range: e54_dimension
 superproperties:
   - p141_assigned
+reverse label: was observed in

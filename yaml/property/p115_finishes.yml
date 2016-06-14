@@ -2,3 +2,4 @@
 label: P115 finishes
 domain: e2_temporal_entity
 range: e2_temporal_entity
+reverse label: is finished by
