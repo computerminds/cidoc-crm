@@ -45,6 +45,13 @@ class PropertyTest extends PHPUnit_Framework_TestCase {
     $this->assertNotEmpty($property->getLabel(), 'Assert that the property has a label.');
   }
 
+  /**
+   * @dataProvider propertyProvider
+   */
+  public function testReverseLabelsDefined(\ComputerMinds\CIDOC_CRM\Property $property) {
+    $this->assertNotEmpty($property->getReverseLabel(), 'Assert that the property has a reverse label.');
+  }
+
   public function propertyProvider() {
     $loadedProperties = array();
     $properties = $this->propertyFactory->listProperties();

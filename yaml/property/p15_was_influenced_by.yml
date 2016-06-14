@@ -2,3 +2,4 @@
 label: P15 was influenced by
 domain: e7_activity
 range: e1_crm_entity
+reverse label: influenced

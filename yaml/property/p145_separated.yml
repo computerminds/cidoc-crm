@@ -4,3 +4,4 @@ domain: e86_leaving
 range: e39_actor
 superproperties:
   - p11_had_participant
+reverse label: left by

@@ -2,3 +2,4 @@
 label: P126 employed
 domain: e11_modification
 range: e57_material
+reverse label: was employed in
