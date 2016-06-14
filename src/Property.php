@@ -36,6 +36,15 @@ class Property {
     }
   }
 
+  public function getReverseLabel() {
+    if (isset($this->parsed['reverse label'])) {
+      return $this->parsed['reverse label'];
+    }
+    else {
+      return $this->getLabel();
+    }
+  }
+
   public function domain() {
     if (isset($this->parsed['domain'])) {
       return $this->parsed['domain'];
