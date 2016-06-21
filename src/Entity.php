@@ -61,4 +61,22 @@ class Entity {
     return $this->crm_yaml;
   }
 
+  public function getDescription() {
+    if (isset($this->parsed['description'])) {
+      return $this->parsed['description'];
+    }
+    else {
+      return '';
+    }
+  }
+
+  public function getExamples() {
+    if (isset($this->parsed['examples'])) {
+      return $this->parsed['examples'];
+    }
+    else {
+      return '';
+    }
+  }
+
 }

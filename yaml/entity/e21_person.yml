@@ -3,3 +3,14 @@ label: E21 Person
 superclasses:
   - e20_biological_object
   - e39_actor
+description: |
+  This class comprises real persons who live or are assumed to have lived.
+
+  Legendary figures that may have existed, such as Ulysses and King Arthur, fall into this class
+  if the documentation refers to them as historical figures. In cases where doubt exists as to
+  whether several persons are in fact identical, multiple instances can be created and linked to
+  indicate their relationship. The CRM does not propose a specific form to support reasoning
+  about possible identity.
+examples: |
+  * Tut-Ankh-Amun
+  * Nelson Mandela

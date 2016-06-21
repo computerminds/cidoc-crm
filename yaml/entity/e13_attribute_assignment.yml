@@ -5,3 +5,23 @@ superclasses:
 properties:
   - p140_assigned_attribute_to
   - p141_assigned
+description: |
+  This class comprises the actions of making assertions about properties of an object or any
+  relation between two items or concepts.
+
+  This class allows the documentation of how the respective assignment came about, and whose
+  opinion it was. All the attributes or properties assigned in such an action can also be seen as
+  directly attached to the respective item or concept, possibly as a collection of contradictory
+  values. All cases of properties in this model that are also described indirectly through an action
+  are characterised as "short cuts" of this action. This redundant modelling of two alternative
+  views is preferred because many implementations may have good reasons to model either the
+  action or the short cut, and the relation between both alternatives can be captured by simple
+  rules.
+
+  In particular, the class describes the actions of people making propositions and statements
+  during certain museum procedures, e.g. the person and date when a condition statement was
+  made, an identifier was assigned, the museum object was measured, etc. Which kinds of such
+  assignments and statements need to be documented explicitly in structures of a schema rather
+  than free text, depends on if this information should be accessible by structured queries.
+examples: |
+  * the assessment of the current ownership of Martin Doerr’s silver cup in February 1997

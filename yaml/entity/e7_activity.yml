@@ -13,3 +13,16 @@ properties:
   - p32_used_general_technique
   - p125_used_object_of_type
   - p134_continued
+description: |
+  This class comprises actions intentionally carried out by instances of E39 Actor that result in
+  changes of state in the cultural, social, or physical systems documented.
+
+  This notion includes complex, composite and long-lasting actions such as the building of a
+  settlement or a war, as well as simple, short-lived actions such as the opening of a door.
+examples: |
+  * the Battle of Stalingrad
+  * the Yalta Conference
+  * my birthday celebration 28-6-1995
+  * the writing of “Faust” by Goethe (E65)
+  * the formation of the Bauhaus 1919 (E66)
+  * calling the place identified by TGN ‘7017998’ ‘Quyunjig’ by the people of Iraq

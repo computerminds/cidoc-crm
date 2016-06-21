@@ -3,3 +3,13 @@ label: E22 Man-Made Object
 superclasses:
   - e19_physical_object
   - e24_physical_man_made_thing
+description: |
+  This class comprises physical objects purposely created by human activity.
+
+  No assumptions are made as to the extent of modification required to justify regarding an
+  object as man-made. For example, an inscribed piece of rock or a preserved butterfly are both
+  regarded as instances of E22 Man-Made Object.
+examples: |
+  * Mallard (the World’s fastest steam engine)
+  * the Portland Vase
+  * the Coliseum

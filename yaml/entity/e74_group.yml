@@ -4,3 +4,23 @@ superclasses:
   - e39_actor
 properties:
   - p107_has_current_or_former_member
+description: |
+  This class comprises any gatherings or organizations of two or more people that act
+  collectively or in a similar way due to any form of unifying relationship. In the wider sense
+  this class also comprises official positions which used to be regarded in certain contexts as
+  one actor, independent of the current holder of the office, such as the president of a country.
+
+  A gathering of people becomes an E74 Group when it exhibits organizational characteristics
+  usually typified by a set of ideas or beliefs held in common, or actions performed together.
+  These might be communication, creating some common artifact, a common purpose such as
+  study, worship, business, sports, etc. Nationality can be modeled as membership in an E74
+  Group (cf. HumanML markup). Married couples and other concepts of family are regarded as
+  particular examples of E74 Group.
+examples: |
+  * the impressionists
+  * the Navajo
+  * the Greeks
+  * the peace protestors in New York City on February 15 2003
+  * Exxon-Mobil
+  * King Solomon and his wives
+  * The President of the Swiss Confederation
