@@ -38,7 +38,7 @@ class PropertyTraversal {
       }
     }
 
-    return $all_superclasses;
+    return array_unique($all_superclasses);
   }
 
   public function getSubproperties(Property $property) {
@@ -75,6 +75,6 @@ class PropertyTraversal {
       }
     }
 
-    return array_values($all_subclasses);
+    return array_unique(array_values($all_subclasses));
   }
 }

@@ -38,7 +38,7 @@ class EntityTraversal {
       }
     }
 
-    return $all_superclasses;
+    return array_unique($all_superclasses);
   }
 
   public function getSubclasses(Entity $entity) {
@@ -75,6 +75,6 @@ class EntityTraversal {
       }
     }
 
-    return array_values($all_subclasses);
+    return array_unique(array_values($all_subclasses));
   }
 }
