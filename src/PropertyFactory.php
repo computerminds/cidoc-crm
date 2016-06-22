@@ -11,23 +11,33 @@ namespace ComputerMinds\CIDOC_CRM;
 
 class PropertyFactory extends YamlFactory {
 
+  protected $propertyCache = array();
+  protected $listCache;
+
   public function getProperty($propertyName) {
-    // Search the Yaml directories for a matching name.
-    if ($filename = $this->findFile($propertyName)) {
-      // Load the File and pop the result into a class.
-      return new Property($this->getNameFromFilename($filename), file_get_contents($filename));
+    if (!isset($this->propertyCache[$propertyName])) {
+      // Search the Yaml directories for a matching name.
+      if ($filename = $this->findFile($propertyName)) {
+        // Load the File and pop the result into a class.
+        $this->propertyCache[$propertyName] = new Property($this->getNameFromFilename($filename), file_get_contents($filename));
+      }
+      else {
+        throw new FactoryException('Could not locate file containing property: ' . $propertyName);
+      }
     }
-    else {
-      throw new FactoryException('Could not locate file containing property: ' . $propertyName);
-    }
+
+    return $this->propertyCache[$propertyName];
   }
 
   protected function getSubfolder() {
     return 'property';
   }
-  
+
   public function listProperties() {
-    return array_keys($this->listFiles());
+    if (!isset($this->listCache)) {
+      $this->listCache = array_keys($this->listFiles());
+    }
+    return $this->listCache;
   }
 
 

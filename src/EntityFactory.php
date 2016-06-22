@@ -11,23 +11,33 @@ namespace ComputerMinds\CIDOC_CRM;
 
 class EntityFactory extends YamlFactory {
 
+  protected $entityCache = array();
+  protected $listCache;
+
   public function getEntity($entityName) {
-    // Search the Yaml directories for a matching name.
-    if ($filename = $this->findFile($entityName)) {
-      // Load the File and pop the result into a class.
-      return new Entity($this->getNameFromFilename($filename), file_get_contents($filename));
+    if (!isset($this->entityCache[$entityName])) {
+      // Search the Yaml directories for a matching name.
+      if ($filename = $this->findFile($entityName)) {
+        // Load the File and pop the result into a class.
+        $this->entityCache[$entityName] = new Entity($this->getNameFromFilename($filename), file_get_contents($filename));
+      }
+      else {
+        throw new FactoryException('Could not locate file containing entity: ' . $entityName);
+      }
     }
-    else {
-      throw new FactoryException('Could not locate file containing entity: ' . $entityName);
-    }
+
+    return $this->entityCache[$entityName];
   }
 
   protected function getSubfolder() {
     return 'entity';
   }
-  
+
   public function listEntities() {
-    return array_keys($this->listFiles());
+    if (!isset($this->listCache)) {
+      $this->listCache = array_keys($this->listFiles());
+    }
+    return $this->listCache;
   }
 
 
