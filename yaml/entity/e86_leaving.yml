@@ -5,3 +5,14 @@ superclasses:
 properties:
   - p145_separated
   - p146_separated_from
+description: |
+  This class comprises the activities that result in an instance of E39 Actor to be disassociated
+  from an instance of E74 Group. This class does not imply initiative by either party.
+  Typical scenarios include the termination of membership in a social organisation, ending the
+  employment at a company, divorce, and the end of tenure of somebody in an official position.
+examples: |
+  * The end of Sir Isaac Newton’s duty as Member of Parliament for the University of
+    Cambridge to the Convention Parliament in 1702
+  * George Washington’s leaving office in 1797
+  * The implementation of the treaty regulating the termination of Greenland’s membership in
+    EU between EU, Denmark and Greenland February 1. 1985

@@ -2,3 +2,16 @@
 label: E38 Image
 superclasses:
   - e36_visual_item
+description: |
+  This class comprises distributions of form, tone and colour that may be found on surfaces such
+  as photos, paintings, prints and sculptures or directly on electronic media.
+
+  The degree to which variations in the distribution of form and colour affect the identity of an
+  instance of E38 Image depends on a given purpose. The original painting of the Mona Lisa in
+  the Louvre may be said to bear the same instance of E38 Image as reproductions in the form of
+  transparencies, postcards, posters or T-shirts, even though they may differ in size and carrier
+  and may vary in tone and colour. The images in a “spot the difference” competition are not the
+  same with respect to their context, however similar they may at first appear.
+examples: |
+  * the front side of all 20 Swiss Frs notes
+  * the image depicted on all reproductions of the Mona Lisa

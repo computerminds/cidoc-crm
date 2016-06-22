@@ -4,3 +4,14 @@ superclasses:
   - e5_event
 properties:
   - p93_took_out_of_existence
+description: |
+  This class comprises events that end the existence of any E77 Persistent Item.
+
+  It may be used for temporal reasoning about things (physical items, groups of people, living
+  beings) ceasing to exist; it serves as a hook for determination of a terminus postquem and
+  antequem. In cases where substance from a Persistent Item continues to exist in a new form,
+  the process would be documented by E81 Transformation.
+examples: |
+  * the death of Snoopy, my dog
+  * the melting of the snowman
+  * the burning of the Temple of Artemis in Ephesos by Herostratos in 356BC

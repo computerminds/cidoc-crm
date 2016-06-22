@@ -5,3 +5,16 @@ superclasses:
 properties:
   - p135_created_type
   - p136_was_based_on
+description: |
+  This class comprises activities formally defining new types of items.
+
+  It is typically a rigorous scholarly or scientific process that ensures a type is exhaustively
+  described and appropriately named. In some cases, particularly in archaeology and the life
+  sciences, E83 Type Creation requires the identification of an exemplary specimen and the
+  publication of the type definition in an appropriate scholarly forum. The activity of E83 Type
+  Creation is central to research in the life sciences, where a type would be referred to as a
+  “taxon,” the type description as a “protologue,” and the exemplary specimens as “orgininal
+  element” or “holotype”.
+examples: |
+  * creation of the taxon 'Penicillium brefeldianum B. O. Dodge' (1933)
+  * addition of class E84 Information Carrier to the CIDOC CRM

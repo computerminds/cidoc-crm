@@ -4,3 +4,10 @@ superclasses:
   - e31_document
 properties:
   - p71_lists
+description: |
+  This class comprises encyclopaedia, thesauri, authority lists and other documents that define
+  terminology or conceptual systems for consistent use.
+examples: |
+  * Webster's Dictionary
+  * Getty Art and Architecture Thesaurus
+  * the CIDOC Conceptual Reference Model

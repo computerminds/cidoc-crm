@@ -4,3 +4,14 @@ superclasses:
   - e5_event
 properties:
   - p92_brought_into_existence
+description: |
+  This class comprises events that bring into existence any E77 Persistent Item.
+
+  It may be used for temporal reasoning about things (intellectual products, physical items,
+  groups of people, living beings) beginning to exist; it serves as a hook for determination of a
+  terminus post quem and ante quem.
+examples: |
+  * the birth of my child
+  * the birth of Snoopy, my dog
+  * the calving of the iceberg that sank the Titanic
+  * the construction of the Eiffel Tower

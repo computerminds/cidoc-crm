@@ -2,3 +2,20 @@
 label: E46 Section Definition
 superclasses:
   - e44_place_appellation
+description: |
+  This class comprises areas of objects referred to in terms specific to the general geometry or
+  structure of its kind.
+
+  The 'prow' of the boat, the 'frame' of the picture, the 'front' of the building are all instances of
+  E46 Section Definition. The class highlights the fact that parts of objects can be treated as
+  locations. This holds in particular for features without natural boundaries, such as the “head”
+  of a marble statue made out of one block (cf. E53 Place). In answer to the question 'where is
+  the signature?' one might reply 'on the lower left corner'. (Section Definition is closely related
+  to the term “segment” in Gerstl, P.& Pribbenow, S, 1996 “ A conceptual theory of part – whole
+  relations and its applications”, Data & Knowledge Engineering 20 305-322, North HollandElsevier
+  ).
+examples: |
+  * “the entrance lobby to the Ripley Center”
+  * “the poop deck of H.M.S Victory”
+  * “the Venus de Milo’s left buttock”
+  * “left inner side of my box”

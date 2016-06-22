@@ -5,3 +5,14 @@ superclasses:
 properties:
   - p104_is_subject_to
   - p105_right_held_by
+description: |
+  This class comprises those material or immaterial items to which instances of E30 Right, such
+  as the right of ownership or use, can be applied.
+
+  This is true for all E18 Physical Thing. In the case of instances of E28 Conceptual Object,
+  however, the identity of the E28 Conceptual Object or the method of its use may be too
+  ambiguous to reliably establish instances of E30 Right, as in the case of taxa and inspirations.
+  Ownership of corporations is currently regarded as out of scope of the CRM.
+examples: |
+  * the Cullinan diamond (E19)
+  * definition of the CIDOC Conceptual Reference Model Version 2.1 (E73)

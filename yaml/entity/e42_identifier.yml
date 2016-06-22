@@ -2,3 +2,19 @@
 label: E42 Identifier
 superclasses:
   - e41_appellation
+description: |
+  This class comprises strings or codes assigned to instances of E1 CRM Entity in order to
+  identify them uniquely and permanently within the context of one or more organisations. Such
+  codes are often known as inventory numbers, registration codes, etc. and are typically
+  composed of alphanumeric sequences. The class E42 Identifier is not normally used for
+  machine-generated identifiers used for automated processing unless these are also used by
+  human agents.
+examples: |
+  * “MM.GE.195”
+  * “13.45.1976”
+  * “OXCMS: 1997.4.1”
+  * ISSN “0041-5278”
+  * ISRC “FIFIN8900116”
+  * Shelf mark “Res 8 P 10”
+  * “Guillaume de Machaut (1300?-1377)” [a controlled personal name heading that follows
+    the French rules]

@@ -1,2 +1,14 @@
 ---
 label: E59 Primitive Value
+description: |
+  This class comprises primitive values used as documentation elements, which are not further
+  elaborated upon within the model.
+
+  As such they are not considered as elements within our universe of discourse. No specific
+  implementation recommendations are made. It is recommended that the primitive value system
+  from the implementation platform be used to substitute for this class and its subclasses.
+examples: |
+  * ABCDEFG (E62)
+  * 3.14 (E60)
+  * 0
+  * 1921-01-01 (E61)

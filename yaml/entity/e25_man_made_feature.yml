@@ -3,3 +3,14 @@ label: E25 Man-Made Feature
 superclasses:
   - e24_physical_man_made_thing
   - e26_physical_feature
+description: |
+  This class comprises physical features that are purposely created by human activity, such as
+  scratches, artificial caves, artificial water channels, etc.
+
+  No assumptions are made as to the extent of modification required to justify regarding a
+  feature as man-made. For example, rock art or even “cup and ring” carvings on bedrock a
+  regarded as types of E25 Man-Made Feature.
+
+examples: |
+  * the Manchester Ship Canal
+  * Michael Jackson’s nose following plastic surgery

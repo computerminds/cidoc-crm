@@ -3,3 +3,18 @@ label: E35 Title
 superclasses:
   - e33_linguistic_object
   - e41_appellation
+description: |
+  This class comprises the names assigned to works, such as texts, artworks or pieces of music.
+
+  Titles are proper noun phrases or verbal phrases, and should not be confused with generic
+  object names such as “chair”, “painting” or “book” (the latter are common nouns that stand for
+  instances of E55 Type). Titles may be assigned by the creator of the work itself, or by a social
+  group.
+
+  This class also comprises the translations of titles that are used as surrogates for the original
+  titles in different social contexts.
+examples: |
+  * “The Merchant of Venice”
+  * “Mona Lisa”
+  * “La Pie or The Magpie”
+  * “Lucy in the Sky with Diamonds”

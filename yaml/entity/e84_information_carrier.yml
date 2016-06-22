@@ -2,3 +2,16 @@
 label: E84 Information Carrier
 superclasses:
   - e22_man_made_object
+description: |
+  This class comprises all instances of E22 Man-Made Object that are explicitly designed to act
+  as persistent physical carriers for instances of E73 Information Object.
+
+  This allows a relationship to be asserted between an E19 Physical Object and its immaterial
+  information contents. An E84 Information Carrier may or may not contain information, e.g., a
+  diskette. Note that any E18 Physical Thing may carry information, such as an E34 Inscription.
+  However, unless it was specifically designed for this purpose, it is not an Information Carrier.
+  Therefore the property P128 carries (is carried by) applies to E18 Physical Thing in general.
+examples: |
+  * the Rosetta Stone
+  * my paperback copy of Crime & Punishment
+  * the computer disk at ICS-FORTH that stores the canonical Definition of the CIDOC CRM

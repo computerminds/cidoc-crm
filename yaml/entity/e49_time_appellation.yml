@@ -2,3 +2,17 @@
 label: E49 Time Appellation
 superclasses:
   - e44_place_appellation
+description: |
+  This class comprises all forms of names or codes, such as historical periods, and dates, which
+  are characteristically used to refer to a specific E52 Time-Span.
+
+  The instances of E49 Time Appellation may vary in their degree of precision, and they may be
+  relative to other time frames, “Before Christ” for example. Instances of E52 Time-Span are
+  often defined by reference to a cultural period or an event e.g. ‘the duration of the Ming
+  Dynasty’.
+examples: |
+  * “Meiji” [Japanese term for a specific time-span]
+  * “1st half of the XX century”
+  * “Quaternary”
+  * “1215 Hegira” [a date in the Islamic calendar]
+  * “Last century”

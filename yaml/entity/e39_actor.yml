@@ -7,3 +7,14 @@ properties:
   - p75_possesses
   - p76_has_contact_point
   - p131_is_identified_by
+description: |
+  This class comprises people, either individually or in groups, who have the potential to
+  perform intentional actions for which they can be held responsible.
+
+  The CRM does not attempt to model the inadvertent actions of such actors. Individual people
+  should be documented as instances of E21 Person, whereas groups should be documented as
+  instances of either E74 Group or its subclass E40 Legal Body.
+examples: |
+  * London and Continental Railways (E40)
+  * the Governor of the Bank of England in 1975 (E21)
+  * Sir Ian McKellan (E21)

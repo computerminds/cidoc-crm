@@ -2,3 +2,14 @@
 label: E37 Mark
 superclasses:
   - e36_visual_item
+description: |
+  This class comprises symbols, signs, signatures or short texts applied to instances of E24
+  Physical Man-Made Thing by arbitrary techniques in order to indicate the creator, owner,
+  dedications, purpose, etc.
+
+  This class specifically excludes features that have no semantic significance, such as scratches
+  or tool marks. These should be documented as instances of E25 Man-Made Feature.
+examples: |
+  * Minoan double axe mark
+  * ©
+  * ☺

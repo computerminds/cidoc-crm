@@ -4,3 +4,23 @@ superclasses:
   - e24_physical_man_made_thing
 properties:
   - p109_has_current_or_former_curator
+description: |
+  This class comprises aggregations of instances of E18 Physical Thing that are assembled and
+  maintained (“curated” and “preserved,” in museological terminology) by one or more instances
+  of E39 Actor over time for a specific purpose and audience, and according to a particular
+  collection development plan.
+
+  Items may be added or removed from an E78 Collection in pursuit of this plan. This class
+  Definition of the CIDOC Conceptual Reference Model 31
+  should not be confused with the E39 Actor maintaining the E78 Collection often referred to
+  with the name of the E78 Collection (e.g. “The Wallace Collection decided…”).
+
+  Collective objects in the general sense, like a tomb full of gifts, a folder with stamps or a set of
+  chessmen, should be documented as instances of E19 Physical Object, and not as instances of
+  E78 Collection. This is because they form wholes either because they are physically bound
+  together or because they are kept together for their functionality.
+examples: |
+  * the John Clayton Herbarium
+  * the Wallace Collection
+  * Mikael Heggelund Foslie’s coralline red algae Herbarium at Museum of Natural History
+    and Archaeology, Trondheim, Norway

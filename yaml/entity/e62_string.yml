@@ -2,3 +2,11 @@
 label: E62 String
 superclasses:
   - e59_primitive_value
+description: |
+  This class comprises the instances of E59 Primitive Values used for documentation such as
+  free text strings, bitmaps, vector graphics, etc.
+
+  E62 String is not further elaborated upon within the model
+examples: |
+  * the Quick Brown Fox Jumps Over the Lazy Dog
+  * 6F 6E 54 79 70 31 0D 9E

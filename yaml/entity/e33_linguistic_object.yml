@@ -5,3 +5,21 @@ superclasses:
 properties:
   - p72_has_language
   - p73_has_translation
+description: |
+  This class comprises identifiable expressions in natural language or languages.
+
+  Instances of E33 Linguistic Object can be expressed in many ways: e.g. as written texts,
+  recorded speech or sign language. However, the CRM treats instances of E33 Linguistic
+  Object independently from the medium or method by which they are expressed. Expressions in
+  formal languages, such as computer code or mathematical formulae, are not treated as
+  instances of E33 Linguistic Object by the CRM. These should be modelled as instances of E73
+  Information Object.
+
+  The text of an instance of E33 Linguistic Object can be documented in a note by P3 has note:
+  E62 String
+examples: |
+  * the text of the Ellesmere Chaucer manuscript
+  * the lyrics of the song "Blue Suede Shoes"
+  * the text of the Jabberwocky by Lewis Carroll
+  * the text of "Doktoro Jekyll kaj Sinjoro Hyde" (an Esperanto translation of Dr Jekyll and
+    Mr Hyde)

@@ -3,3 +3,19 @@ label: E34 Inscription
 superclasses:
   - e33_linguistic_object
   - e37_mark
+description: |
+  This class comprises recognisable, short texts attached to instances of E24 Physical Man-Made
+  Thing.
+
+  The transcription of the text can be documented in a note by P3 has note: E62 String. The
+  alphabet used can be documented by P2 has type: E55 Type. This class does not intend to
+  describe the idiosyncratic characteristics of an individual physical embodiment of an
+  inscription, but the underlying prototype. The physical embodiment is modelled in the CRM as
+  E24 Physical Man-Made Thing.
+
+  The relationship of a physical copy of a book to the text it contains is modelled using E84
+  Information Carrier. P128 carries (is carried by): E33 Linguistic Object
+examples: |
+  * “keep off the grass” on a sign stuck in the lawn of the quad of Balliol College
+  * The text published in Corpus Inscriptionum Latinarum V 895
+  * Kilroy was here

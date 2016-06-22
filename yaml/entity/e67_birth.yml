@@ -6,3 +6,15 @@ properties:
   - p96_by_mother
   - p97_from_father
   - p98_brought_into_life
+description: |
+  This class comprises the births of human beings. E67 Birth is a biological event focussing on
+  the context of people coming into life. (E63 Beginning of Existence comprises the coming into
+  life of any living beings).
+
+  Twins, triplets etc. are brought into life by the same E67 Birth event. The introduction of the
+  E67 Birth event as a documentation element allows the description of a range of family
+  relationships in a simple model. Suitable extensions may describe more details and the
+  complexity of motherhood with the intervention of modern medicine. In this model, the
+  biological father is not seen as a necessary participant in the E67 Birth event.
+examples: |
+  * the birth of Alexander the Great

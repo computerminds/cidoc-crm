@@ -2,3 +2,14 @@
 label: E40 Legal Body
 superclasses:
   - e74_group
+description: |
+  This class comprises institutions or groups of people that have obtained a legal recognition as a
+  group and can act collectively as agents.
+
+  This means that they can perform actions, own property, create or destroy things and can be
+  held collectively responsible for their actions like individual people. The term 'personne
+  morale' is often used for this in French.
+examples: |
+  * Greenpeace
+  * Paveprime Ltd
+  * the National Museum of Denmark

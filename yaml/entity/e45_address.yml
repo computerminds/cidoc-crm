@@ -3,3 +3,15 @@ label: E45 Address
 superclasses:
   - e44_place_appellation
   - e51_contact_point
+description: |
+  This class comprises identifiers expressed in coding systems for places, such as postal
+  addresses used for mailing.
+
+  An E45 Address can be considered both as the name of an E53 Place and as an E51 Contact
+  Point for an E39 Actor. This dual aspect is reflected in the multiple inheritance. However,
+  some forms of mailing addresses, such as a postal box, are only instances of E51 Contact
+  Point, since they do not identify any particular Place. These should not be documented as
+  instances of E45 Address.
+examples: |
+  * “1-29-3 Otsuka, Bunkyo-ku, Tokyo, 121, Japan”
+  * “Rue David Dufour 5, CH-1211, Genève”

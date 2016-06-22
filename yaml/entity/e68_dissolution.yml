@@ -4,3 +4,11 @@ superclasses:
   - e64_end_of_existence
 properties:
   - p99_dissolved
+description: |
+  This class comprises the events that result in the formal or informal termination of an E74
+  Group of people.
+  If the dissolution was deliberate, the Dissolution event should also be instantiated as an E7
+  Activity.
+examples: |
+  * the fall of the Roman Empire
+  * the liquidation of Enron Corporation

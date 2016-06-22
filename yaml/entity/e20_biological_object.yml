@@ -2,3 +2,14 @@
 label: E20 Biological Object
 superclasses:
   - e19_physical_object
+description: |
+  This class comprises individual items of a material nature, which live, have lived or are natural
+  products of or from living organisms.
+
+  Artificial objects that incorporate biological elements, such as Victorian butterfly frames, can
+  be documented as both instances of E20 Biological Object and E22 Man-Made Object.
+examples: |
+  * me
+  * Tut-Ankh-Amun
+  * Boukephalas [Horse of Alexander the Great]
+  * petrified dinosaur excrement PA1906-344

@@ -2,3 +2,12 @@
 label: E50 Date
 superclasses:
   - e49_time_appellation
+description: |
+  This class comprises specific forms of E49 Time Appellation.
+
+  Dates may vary in their degree of precision.
+examples: |
+  * “1900”
+  * “4-4-1959”
+  * “19-MAR-1922”
+  * “19640604”

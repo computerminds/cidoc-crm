@@ -5,3 +5,9 @@ superclasses:
   - e63_beginning_of_existence
 properties:
   - p94_has_created
+description: |
+  This class comprises events that result in the creation of conceptual items or immaterial
+  products, such as legends, poems, texts, music, images, movies, laws, types etc.
+examples: |
+  * the framing of the U.S. Constitution
+  * the drafting of U.N. resolution 1441

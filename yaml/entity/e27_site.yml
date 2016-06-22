@@ -2,3 +2,18 @@
 label: E27 Site
 superclasses:
   - e26_physical_feature
+description: |
+  This class comprises pieces of land or sea floor.
+
+  In contrast to the purely geometric notion of E53 Place, this class describes constellations of
+  matter on the surface of the Earth or other celestial body, which can be represented by
+  photographs, paintings and maps.
+
+  Instances of E27 Site are composed of relatively immobile material items and features in a
+  particular configuration at a particular location.
+examples: |
+  * the Amazon river basin
+  * Knossos
+  * the Apollo 11 landing site
+  * Heathrow Airport
+  * the submerged harbour of the Minoan settlement of Gournia, Crete

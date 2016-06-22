@@ -2,3 +2,14 @@
 label: E48 Place Name
 superclasses:
   - e44_place_appellation
+description: |
+  This class comprises particular and common forms of E44 Place Appellation.
+
+  Place Names may change their application over time: the name of an E53 Place may change,
+  and a name may be reused for a different E53 Place. Instances of E48 Place Name are typically
+  subject to place name gazetteers.
+examples: |
+  * “Greece”
+  * “Athens”
+  * “Geneva”
+  * “Lac Léman”

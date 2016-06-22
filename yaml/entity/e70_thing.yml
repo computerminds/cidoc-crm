@@ -6,3 +6,17 @@ properties:
   - p43_has_dimension
   - p101_had_as_general_use
   - p130_shows_features_of
+description: |
+  This general class comprises usable discrete, identifiable, instances of E77 Persistent Item that
+  are documented as single units.
+
+  They can be either intellectual products or physical things, and are characterized by relative
+  stability. They may for instance either have a solid physical form, an electronic encoding, or
+  they may be logical concept or structure.
+examples: |
+  * my photograph collection (E78)
+  * the bottle of milk in my refrigerator (E22)
+  * the plan of the Strassburger Muenster (E29)
+  * the thing on the top of Otto Hahn’s desk (E19)
+  * the form of the no-smoking sign (E36)
+  * the cave of Dirou, Mani, Greece (E27)

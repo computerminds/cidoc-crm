@@ -4,3 +4,11 @@ superclasses:
   - e64_end_of_existence
 properties:
   - p100_was_death_of
+description: |
+  This class comprises the deaths of human beings.
+
+  If a person is killed, their death should be instantiated as E69 Death and as E7 Activity. The
+  death or perishing of other living beings should be documented using E64 End of Existence.
+examples: |
+  * the murder of Julius Caesar (E69,E7)
+  * the death of Senator Paul Wellstone

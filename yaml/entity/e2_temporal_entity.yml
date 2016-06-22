@@ -12,3 +12,16 @@ properties:
   - p118_overlaps_in_time_with
   - p119_meets_in_time_with
   - p120_occurs_before
+description: |
+  This class comprises all phenomena, such as the instances of E4 Periods, E5 Events and states,
+  which happen over a limited extent in time.
+
+  In some contexts, these are also called perdurants. This class is disjoint from E77 Persistent
+  Item. This is an abstract class and has no direct instances. E2 Temporal Entity is specialized
+  into E4 Period, which applies to a particular geographic area (defined with a greater or lesser
+  degree of precision), and E3 Condition State, which applies to instances of E18 Physical
+  Thing.
+examples: |
+  * Bronze Age (E4)
+  * the earthquake in Lisbon 1755 (E5)
+  * the Peterhof Palace near Saint Petersburg being in ruins from 1944 – 1946 (E3)

@@ -2,3 +2,8 @@
 label: E75 Conceptual Object Appellation
 superclasses:
   - e41_appellation
+description: |
+  This class comprises all appellations specific to intellectual products or standardized patterns.
+examples: |
+  * “ISBN 3-7913-1418-1”
+  * “ISO 2788-1986 (F)”

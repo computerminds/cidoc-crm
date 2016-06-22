@@ -2,3 +2,11 @@
 label: E30 Right
 superclasses:
   - e89_propositional_object
+description: |
+  This class comprises legal privileges concerning material and immaterial things or their
+  derivatives.
+
+  These include reproduction and property rights.
+examples: |
+  * copyright held by ISO on ISO/CD 21127
+  * ownership of the “Mona Lisa” by the Louvre

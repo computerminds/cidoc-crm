@@ -1,6 +1,0 @@
----
-label: E36 Visual Item
-superclasses:
-  - e73_information_object
-properties:
-  - p138_represents

@@ -2,3 +2,14 @@
 label: E61 Time Primitive
 superclasses:
   - e59_primitive_value
+description: |
+  This class comprises instances of E59 Primitive Value for time that should be implemented
+  with appropriate validation, precision and interval logic to express date ranges relevant to
+  cultural documentation.
+
+  E61 Time Primitive is not further elaborated upon within the model.
+examples: |
+  * 1994 – 1997
+  * 13 May 1768
+  * 2000/01/01 00:00:59.7
+  * 85th century BC

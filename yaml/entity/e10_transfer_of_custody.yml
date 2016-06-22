@@ -6,3 +6,26 @@ properties:
   - p28_custody_surrendered_by
   - p29_custody_received_by
   - p30_transferred_custody_of
+description: |
+  This class comprises transfers of physical custody of objects between instances of E39 Actor.
+
+  The recording of the donor and/or recipient is optional. It is possible that in an instance of E10
+  Transfer of Custody there is either no donor or no recipient. Depending on the circumstances it
+  may describe:
+  1. the beginning of custody
+  2. the end of custody
+  3. the transfer of custody
+  4. the receipt of custody from an unknown source
+  5. the declared loss of an object
+
+  The distinction between the legal responsibility for custody and the actual physical possession
+  of the object should be expressed using the property P2 has type (is type of). A specific case of
+  transfer of custody is theft.
+
+  The interpretation of the museum notion of "accession" differs between institutions. The CRM
+  therefore models legal ownership and physical custody separately. Institutions will then model
+  their specific notions of accession and deaccession as combinations of these
+
+examples: |
+  * the delivery of the paintings by Secure Deliveries Inc. to the National Gallery
+  * the return of Picasso’s “Guernica” to Madrid’s Prado in 1981

@@ -2,3 +2,22 @@
 label: E58 Measurement Unit
 superclasses:
   - e55_type
+description: |
+  This class is a specialization of E55 Type and comprises the types of measurement units: feet,
+  inches, centimetres, litres, lumens, etc.
+
+  This type is used categorically in the model without reference to instances of it, i.e. the Model
+  does not foresee the description of instances of instances of E58 Measurement Unit, e.g.:
+  “instances of cm”.
+
+  Système International (SI) units or internationally recognized non-SI terms should be used
+  whenever possible. (ISO 1000:1992). Archaic Measurement Units used in historical records
+  should be preserved.
+examples: |
+  * cm [centimetre]
+  * km [kilometre]
+  * m [meter]
+  * m/s [meters per second]
+  * A [Ampere]
+  * GRD [Greek Drachme]
+  * °C [degrees centigrade]

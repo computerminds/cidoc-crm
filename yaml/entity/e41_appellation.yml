@@ -4,3 +4,28 @@ superclasses:
   - e90_symbolic_object
 properties:
   - p139_has_alternative_form
+description: |
+  This class comprises all sequences of signs of any nature, either meaningful or not, that are
+  used or can be used to refer to and identify a specific instance of some class within a certain
+  context.
+
+  Instances of E41 Appellation do not identify things by their meaning, even if they happen to
+  have one, but by convention, tradition, or agreement. Instances of E41 Appellation are cultural
+  constructs; as such, they have a context, a history, and a use in time and space by some group
+  of users. A given instance of E41 Appellation can have alternative forms, i.e., other instances
+  of E41 Appellation that are always regarded as equivalent independent from the thing it
+  denotes.
+
+  Specific subclasses of E41 Appellation should be used when instances of E41 Appellation of a
+  characteristic form are used for particular objects. Instances of E49 Time Appellation, for
+  example, which take the form of instances of E50 Date, can be easily recognised.
+
+  E41 Appellation should not be confused with the act of naming something. Cf. E15 Identifier
+  Assignment
+examples: |
+  * "Martin"
+  * "the Forth Bridge"
+  * "the Merchant of Venice" (E35)
+  * "Spigelia marilandica (L.) L." [not the species, just the name]
+  * "information science" [not the science itself, but the name through which we refer to it in
+    an English-speaking context]

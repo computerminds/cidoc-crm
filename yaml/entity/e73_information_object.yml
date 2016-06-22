@@ -3,3 +3,21 @@ label: E73 Information Object
 superclasses:
   - e89_propositional_object
   - e90_symbolic_object
+description: |
+  This class comprises identifiable immaterial items, such as a poems, jokes, data sets, images,
+  texts, multimedia objects, procedural prescriptions, computer program code, algorithm or
+  mathematical formulae, that have an objectively recognizable structure and are documented as
+  single units.
+
+  An E73 Information Object does not depend on a specific physical carrier, which can include
+  human memory, and it can exist on one or more carriers simultaneously.
+  Instances of E73 Information Object of a linguistic nature should be declared as instances of
+  the E33 Linguistic Object subclass. Instances of E73 Information Object of a documentary
+  nature should be declared as instances of the E31 Document subclass. Conceptual items such
+  as types and classes are not instances of E73 Information Object, nor are ideas without a
+  reproducible expression.
+examples: |
+  * image BM000038850.JPG from the Clayton Herbarium in London
+  * E. A. Poe's "The Raven"
+  * the movie "The Seven Samurai" by Akira Kurosawa
+  * the Maxwell Equations

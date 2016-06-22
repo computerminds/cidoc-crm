@@ -7,3 +7,14 @@ properties:
   - p62_depicts
   - p65_shows_visual_item
   - p128_carries
+description: |
+  This class comprises all persistent physical items that are purposely created by human activity.
+
+  This class comprises man-made objects, such as a swords, and man-made features, such as
+  rock art. No assumptions are made as to the extent of modification required to justify regarding
+  an object as man-made. For example, a “cup and ring” carving on bedrock is regarded as
+  instance of E24 Physical Man-Made Thing.
+examples: |
+  * the Forth Railway Bridge (E22)
+  * the Channel Tunnel (E25)
+  * the Historical Collection of the Museum Benaki in Athens (E78)

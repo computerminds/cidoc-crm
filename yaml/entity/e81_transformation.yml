@@ -6,3 +6,21 @@ superclasses:
 properties:
   - p123_resulted_in
   - p124_transformed
+description: |
+  This class comprises the events that result in the simultaneous destruction of one or more than
+  one E77 Persistent Item and the creation of one or more than one E77 Persistent Item that
+  preserves recognizable substance from the first one(s) but has fundamentally different nature
+  and identity.
+
+  Although the old and the new instances of E77 Persistent Item are treated as discrete entities
+  having separate, unique identities, they are causally connected through the E81
+  Transformation; the destruction of the old E77 Persistent Item(s) directly causes the creation of
+  the new one(s) using or preserving some relevant substance. Instances of E81 Transformation
+  are therefore distinct from re-classifications (documented using E17 Type Assignment) or
+  modifications (documented using E11 Modification) of objects that do not fundamentally
+  change their nature or identity. Characteristic cases are reconstructions and repurposing of
+  historical buildings or ruins, fires leaving buildings in ruins, taxidermy of specimen in natural
+  history and the reorganization of a corporate body into a new one.
+examples: |
+  * the death and mummification of Tut-Ankh-Amun (transformation of Tut-Ankh-Amun
+    from a living person to a mummy) (E69,E81,E7)

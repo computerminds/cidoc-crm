@@ -5,3 +5,27 @@ superclasses:
   - e72_legal_object
 properties:
   - p106_is_composed_of
+description: |
+  This class comprises identifiable symbols and any aggregation of symbols, such as characters,
+  identifiers, traffic signs, emblems, texts, data sets, images, musical scores, multimedia objects,
+  computer program code or mathematical formulae that have an objectively recognizable
+  structure and that are documented as single units.
+
+  It includes sets of signs of any nature, which may serve to designate something, or to
+  communicate some propositional content.
+
+  An instance of E90 Symbolic Object does not depend on a specific physical carrier, which can
+  include human memory, and it can exist on one or more carriers simultaneously. An instance
+  of E90 Symbolic Object may or may not have a specific meaning, for example an arbitrary
+  character string.
+examples: |
+  * ‘ecognizabl’
+  * The “no-smoking” sign (E36)
+  * “BM000038850.JPG” (E75)
+  * image BM000038850.JPG from the Clayton Herbarium in London (E38)
+  * The distribution of form, tone and colour found on Leonardo da Vinci’s painting named
+    “Mona Lisa” (E38)
+  * The Italian text of Dante’s “Divina Commedia” as found in the authoritative critical
+    edition La Commedia secondo l’antica vulgata a cura di Giorgio Petrocchi, Milano:
+    Mondadori, 1966-67 (= Le Opere di Dante Alighieri, Edizione Nazionale a cura della
+    Società Dantesca Italiana, VII, 1-4) (E33)

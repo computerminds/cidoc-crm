@@ -2,3 +2,14 @@
 label: E51 Contact Point
 superclasses:
   - e41_appellation
+description: |
+  This class comprises identifiers employed, or understood, by communication services to direct
+  communications to an instance of E39 Actor. These include E-mail addresses, telephone
+  numbers, post office boxes, Fax numbers, URLs etc. Most postal addresses can be considered
+  both as instances of E44 Place Appellation and E51 Contact Point. In such cases the subclass
+  E45 Address should be used.
+  URLs are addresses used by machines to access another machine through an http request.
+  Since the accessed machine acts on behalf of the E39 Actor providing the machine, URLs are
+  considered as instances of E51 Contact Point to that E39 Actor.
+examples: |
+  * “+41 22 418 5571”

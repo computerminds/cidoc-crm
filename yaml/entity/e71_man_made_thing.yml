@@ -5,3 +5,14 @@ superclasses:
 properties:
   - p102_has_title
   - p103_was_intended_for
+description: |
+  This class comprises discrete, identifiable man-made items that are documented as single units.
+
+  These items are either intellectual products or man-made physical things, and are characterized
+  by relative stability. They may for instance have a solid physical form, an electronic encoding,
+  or they may be logical concepts or structures.
+examples: |
+  * Beethoven’s 5th Symphony (E73)
+  * Michelangelo’s David
+  * Einstein’s Theory of General Relativity (E73)
+  * the taxon ‘Fringilla coelebs Linnaeus,1758’ (E55)

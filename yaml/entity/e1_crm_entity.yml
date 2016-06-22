@@ -7,3 +7,17 @@ properties:
   - p3_has_note
   - p48_has_preferred_identifier
   - p137_exemplifies
+description: |
+  This class comprises all things in the universe of discourse of the CIDOC Conceptual
+  Reference Model.
+
+  It is an abstract concept providing for three general properties:
+  1. Identification by name or appellation, and in particular by a preferred identifier
+  2. Classification by type, allowing further refinement of the specific subclass an instance
+     belongs to
+  3. Attachment of free text for the expression of anything not captured by formal properties
+
+  With the exception of E59 Primitive Value, all other classes within the CRM are directly or
+  indirectly specialisations of E1 CRM Entity.
+examples: |
+  * the earthquake in Lisbon 1755 (E5)

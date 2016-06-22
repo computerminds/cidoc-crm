@@ -13,3 +13,17 @@ properties:
   - p53_has_former_or_current_location
   - p58_has_section_definition
   - p59_has_section
+description: |
+  This class comprises all persistent physical items with a relatively stable form, man-made or
+  natural.
+
+  Depending on the existence of natural boundaries of such things, the CRM distinguishes the
+  instances of E19 Physical Object from instances of E26 Physical Feature, such as holes, rivers,
+  pieces of land etc. Most instances of E19 Physical Object can be moved (if not too heavy),
+  whereas features are integral to the surrounding matter.
+
+  The CRM is generally not concerned with amounts of matter in fluid or gaseous states.
+examples: |
+  * the Cullinan Diamond (E19)
+  * the cave “Ideon Andron” in Crete (E26)
+  * the Mona Lisa (E22)

@@ -11,3 +11,26 @@ properties:
   - p83_had_at_least_duration
   - p84_had_at_most_duration
   - p86_falls_within
+description: |
+  This class comprises abstract temporal extents, in the sense of Galilean physics, having a
+  beginning, an end and a duration.
+
+  Time Span has no other semantic connotations. Time-Spans are used to define the temporal
+  extent of instances of E4 Period, E5 Event and any other phenomena valid for a certain time.
+  An E52 Time-Span may be identified by one or more instances of E49 Time Appellation.
+
+  Since our knowledge of history is imperfect, instances of E52 Time-Span can best be
+  considered as approximations of the actual Time-Spans of temporal entities. The properties of
+  E52 Time-Span are intended to allow these approximations to be expressed precisely. An
+  extreme case of approximation, might, for example, define an E52 Time-Span having
+  unknown beginning, end and duration. Used as a common E52 Time-Span for two events, it
+  would nevertheless define them as being simultaneous, even if nothing else was known.
+
+  Automatic processing and querying of instances of E52 Time-Span is facilitated if data can be
+  parsed into an E61 Time Primitive.
+examples: |
+  * 1961
+  * From 12-17-1993 to 12-8-1996
+  * 14h30 – 16h22 4th July 1945
+  * 9.30 am 1.1.1999 to 2.00 pm 1.1.1999
+  * duration of the Ming Dynasty

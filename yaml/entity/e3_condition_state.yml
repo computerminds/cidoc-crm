@@ -4,3 +4,18 @@ superclasses:
   - e2_temporal_entity
 properties:
   - p5_consists_of
+description: |
+  This class comprises the states of objects characterised by a certain condition over a time-span.
+
+  An instance of this class describes the prevailing physical condition of any material object or
+  feature during a specific E52 Time Span. In general, the time-span for which a certain
+  condition can be asserted may be shorter than the real time-span, for which this condition held.
+  The nature of that condition can be described using P2 has type. For example, the E3
+  Condition State “condition of the SS Great Britain between 22 September 1846 and 27 August
+  1847” can be characterized as E55 Type “wrecked”.
+examples: |
+  * the “Amber Room” in Tsarskoje Selo being completely reconstructed from summer 2003
+    until now
+  * the Peterhof Palace near Saint Petersburg being in ruins from 1944 – 1946
+  * the state of my turkey in the oven at 14:30 on 25 December, 2002 (P2 has type: E55 Type
+    “still not cooked”)

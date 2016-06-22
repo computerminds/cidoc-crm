@@ -2,3 +2,14 @@
 label: E47 Spatial Coordinates
 superclasses:
   - e44_place_appellation
+description: |
+  This class comprises the textual or numeric information required to locate specific instances of
+  E53 Place within schemes of spatial identification.
+
+  Coordinates are a specific form of E44 Place Appellation, that is, a means of referring to a
+  particular E53 Place. Coordinates are not restricted to longitude, latitude and altitude. Any
+  regular system of reference that maps onto an E19 Physical Object can be used to generate
+  coordinates.
+examples: |
+  * “6°5’29”N 45°12’13”W”
+  * “Black queen’s bishop 4” [chess coordinate]

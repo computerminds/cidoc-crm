@@ -2,3 +2,23 @@
 label: E82 Actor Appellation
 superclasses:
   - e41_appellation
+description: |
+  This class comprises any sort of name, number, code or symbol characteristically used to
+  identify an E39 Actor.
+
+  An E39 Actor will typically have more than one E82 Actor Appellation, and instances of E82
+  Actor Appellation in turn may have alternative representations. The distinction between
+  corporate and personal names, which is particularly important in library applications, should
+  be made by explicitly linking the E82 Actor Appellation to an instance of either E21 Person or
+  E74 Group/E40 Legal Body. If this is not possible, the distinction can be made through the use
+  of the P2 has type mechanism.
+examples: |
+  * “John Doe”
+  * “Doe, J”
+  * “the U.S. Social Security Number 246-14-2304”
+  * “the Artist Formerly Known as Prince”
+  * “the Master of the Flemish Madonna”
+  * “Raphael’s Workshop”
+  * “the Brontë Sisters”
+  * “ICOM”
+  * “International Council of Museums”

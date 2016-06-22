@@ -4,3 +4,14 @@ superclasses:
   - e73_information_object
 properties:
   - p70_documents
+description: |
+  This class comprises identifiable immaterial items that make propositions about reality.
+
+  These propositions may be expressed in text, graphics, images, audiograms, videograms or by
+  other similar means. Documentation databases are regarded as a special case of E31
+  Document. This class should not be confused with the term “document” in Information
+  Technology, which is compatible with E73 Information Object.
+examples: |
+  * the Encyclopaedia Britannica (E32)
+  * the photo of the Allied Leaders at Yalta published by UPI, 1945
+  * the Doomsday Book

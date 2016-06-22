@@ -5,3 +5,23 @@ superclasses:
 properties:
   - p110_augmented
   - p111_added
+description: |
+  This class comprises activities that result in an instance of E24 Physical Man-Made Thing
+  being increased, enlarged or augmented by the addition of a part.
+
+  Typical scenarios include the attachment of an accessory, the integration of a component, the
+  addition of an element to an aggregate object, or the accessioning of an object into a curated
+  E78 Collection. Objects to which parts are added are, by definition, man-made, since the
+  addition of a part implies a human activity. Following the addition of parts, the resulting manmade
+  assemblages are treated objectively as single identifiable wholes, made up of constituent
+  or component parts bound together either physically (for example the engine becoming a part
+  of the car), or by sharing a common purpose (such as the 32 chess pieces that make up a chess
+  set). This class of activities forms a basis for reasoning about the history and continuity of
+  identity of objects that are integrated into other objects over time, such as precious gemstones
+  being repeatedly incorporated into different items of jewellery, or cultural artifacts being added
+  to different museum instances of E78 Collection over their lifespan.
+examples: |
+  * the setting of the koh-i-noor diamond into the crown of Queen Elizabeth the Queen
+    Mother
+  * the addition of the painting “Room in Brooklyn” by Edward Hopper to the collection of
+    the Museum of Fine Arts, Boston
