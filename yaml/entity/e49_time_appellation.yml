@@ -1,7 +1,7 @@
 ---
 label: E49 Time Appellation
 superclasses:
-  - e44_place_appellation
+  - e41_appellation
 description: |
   This class comprises all forms of names or codes, such as historical periods, and dates, which
   are characteristically used to refer to a specific E52 Time-Span.
