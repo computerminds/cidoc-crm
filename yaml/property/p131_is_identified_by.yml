@@ -4,4 +4,4 @@ domain: e39_actor
 range: e82_actor_appellation
 superproperties:
   - p1_is_identified_by
-reverse label: identifies
+reverse label: P131 identifies

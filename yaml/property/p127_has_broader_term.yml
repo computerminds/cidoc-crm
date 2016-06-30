@@ -2,4 +2,4 @@
 label: P127 has broader term
 domain: e55_type
 range: e55_type
-reverse label: has narrower term
+reverse label: P127 has narrower term

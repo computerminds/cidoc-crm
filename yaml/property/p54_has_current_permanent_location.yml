@@ -2,4 +2,4 @@
 label: P54 has current permanent location
 domain: e19_physical_object
 range: e53_place
-reverse label: is current permanent location of
+reverse label: P54 is current permanent location of

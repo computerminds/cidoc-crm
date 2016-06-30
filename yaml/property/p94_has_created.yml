@@ -4,4 +4,4 @@ domain: e65_creation
 range: e28_conceptual_object
 superproperties:
   - p92_brought_into_existence
-reverse label: was created by
+reverse label: P94 was created by

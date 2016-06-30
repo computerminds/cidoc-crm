@@ -4,4 +4,4 @@ domain: e83_type_creation
 range: e1_crm_entity
 superproperties:
   - p15_was_influenced_by
-reverse label: supported type creation
+reverse label: P136 supported type creation

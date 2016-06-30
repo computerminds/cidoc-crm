@@ -5,4 +5,4 @@ range: e24_physical_man_made_thing
 superproperties:
   - p31_has_modified
   - p92_brought_into_existence
-reverse label: was produced by
+reverse label: P108 was produced by

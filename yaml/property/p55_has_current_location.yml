@@ -4,4 +4,4 @@ domain: e19_physical_object
 range: e53_place
 superproperties:
   - p53_has_former_or_current_location
-reverse label: currently holds
+reverse label: P55 currently holds

@@ -4,4 +4,4 @@ domain: e66_formation
 range: e74_group
 superproperties:
   - p92_brought_into_existence
-reverse label: was formed by
+reverse label: P95 was formed by

@@ -4,4 +4,4 @@ domain: e29_design_or_procedure
 range: e57_material
 superproperties:
   - p67_refers_to
-reverse label: use foreseen by
+reverse label: P68 use foreseen by

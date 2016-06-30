@@ -2,4 +2,4 @@
 label: P107 has current or former member
 domain: e74_group
 range: e39_actor
-reverse label: is current or former member of
+reverse label: P107 is current or former member of

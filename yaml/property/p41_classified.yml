@@ -4,4 +4,4 @@ domain: e17_type_assignment
 range: e1_crm_entity
 superproperties:
   - p140_assigned_attribute_to
-reverse label: was classified by
+reverse label: P41 was classified by

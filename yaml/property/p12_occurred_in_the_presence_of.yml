@@ -2,4 +2,4 @@
 label: P12 occurred in the presence of
 domain: e5_event
 range: e77_persistent_item
-reverse label: was present at
+reverse label: P12 was present at

@@ -2,4 +2,4 @@
 label: P125 used object of type
 domain: e7_activity
 range: e55_type
-reverse label: was type of object used in
+reverse label: P125 was type of object used in

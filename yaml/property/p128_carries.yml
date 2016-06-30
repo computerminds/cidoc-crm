@@ -4,4 +4,4 @@ domain: e24_physical_man_made_thing
 range: e90_symbolic_object
 superproperties:
   - p130_shows_features_of
-reverse label: is carried by
+reverse label: P128 is carried by

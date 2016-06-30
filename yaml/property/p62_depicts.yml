@@ -2,4 +2,4 @@
 label: P62 depicts
 domain: e24_physical_man_made_thing
 range: e1_crm_entity
-reverse label: is depicted by
+reverse label: P62 is depicted by

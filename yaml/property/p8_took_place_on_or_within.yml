@@ -2,4 +2,4 @@
 label: P8 took place on or within
 domain: e4_period
 range: e19_physical_object
-reverse label: witnessed
+reverse label: P8 witnessed

@@ -4,4 +4,4 @@ domain: e1_crm_entity
 range: e55_type
 superproperties:
   - p2_has_type
-reverse label: is exemplified by
+reverse label: P137 is exemplified by

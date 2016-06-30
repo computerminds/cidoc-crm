@@ -2,4 +2,4 @@
 label: P1 is identfied by
 domain: e1_crm_entity
 range: e41_appellation
-reverse label: identifies
+reverse label: P1 identifies

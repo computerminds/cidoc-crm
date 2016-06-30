@@ -2,4 +2,4 @@
 label: P119 meets in time with
 domain: e2_temporal_entity
 range: e2_temporal_entity
-reverse label: is met in time by
+reverse label: P119 is met in time by

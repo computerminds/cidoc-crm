@@ -2,4 +2,4 @@
 label: P106 is composed of
 domain: e90_symbolic_object
 range: e90_symbolic_object
-reverse label: forms part of
+reverse label: P106 forms part of

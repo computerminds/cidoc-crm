@@ -2,4 +2,4 @@
 label: P84 had at most duration
 domain: e52_time_span
 range: e54_dimension
-reverse label: was maximum duration of
+reverse label: P84 was maximum duration of

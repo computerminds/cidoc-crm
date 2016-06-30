@@ -4,4 +4,4 @@ domain: e7_activity
 range: e7_activity
 superproperties:
   - p15_was_influenced_by
-reverse label: was continued by
+reverse label: P134 was continued by

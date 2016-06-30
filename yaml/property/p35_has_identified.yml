@@ -4,4 +4,4 @@ domain: e14_condition_assessment
 range: e3_condition_state
 superproperties:
   - p141_assigned
-reverse label: was identified by
+reverse label: P35 was identified by

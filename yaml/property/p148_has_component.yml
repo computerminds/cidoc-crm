@@ -2,4 +2,4 @@
 label: P148 has component
 domain: e89_propositional_object
 range: e89_propositional_object
-reverse label: is component of
+reverse label: P148 is component of

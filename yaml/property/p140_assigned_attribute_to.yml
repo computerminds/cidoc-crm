@@ -2,4 +2,4 @@
 label: P140 assigned attribute to
 domain: e13_attribute_assignment
 range: e1_crm_entity
-reverse label: was attributed by
+reverse label: P140 was attributed by

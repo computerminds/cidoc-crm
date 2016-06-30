@@ -4,4 +4,4 @@ domain: e67_birth
 range: e21_person
 superproperties:
   - p92_brought_into_existence
-reverse label: was born
+reverse label: P98 was born

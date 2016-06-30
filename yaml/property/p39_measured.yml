@@ -4,4 +4,4 @@ domain: e16_measurement
 range: e1_crm_entity
 superproperties:
   - p140_assigned_attribute_to
-reverse label: was measured by
+reverse label: P39 was measured by

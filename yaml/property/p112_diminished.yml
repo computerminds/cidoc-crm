@@ -4,4 +4,4 @@ domain: e80_part_removal
 range: e24_physical_man_made_thing
 superproperties:
   - p31_has_modified
-reverse label: was diminished by
+reverse label: P112 was diminished by

@@ -4,4 +4,4 @@ domain: e5_event
 range: e39_actor
 superproperties:
   - p12_occurred_in_the_presence_of
-reverse label: participated in
+reverse label: P11 participated in
