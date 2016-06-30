@@ -2,4 +2,4 @@
 label: P86 falls within
 domain: e52_time_span
 range: e52_time_span
-reverse label: contains
+reverse label: P86 contains

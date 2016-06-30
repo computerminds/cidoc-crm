@@ -4,4 +4,4 @@ domain: e24_physical_man_made_thing
 range: e36_visual_item
 superproperties:
   - p128_carries
-reverse label: is shown by
+reverse label: P65 is shown by

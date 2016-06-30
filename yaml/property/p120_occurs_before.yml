@@ -2,4 +2,4 @@
 label: P120 occurs before
 domain: e2_temporal_entity
 range: e2_temporal_entity
-reverse label: occurs after
+reverse label: P120 occurs after

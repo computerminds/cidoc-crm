@@ -4,4 +4,4 @@ domain: e8_acquisition
 range: e39_actor
 superproperties:
   - p14_carried_out_by
-reverse label: surrendered title through
+reverse label: P23 surrendered title through

@@ -4,4 +4,4 @@ domain: e86_leaving
 range: e74_group
 superproperties:
   - p11_had_participant
-reverse label: lost member by
+reverse label: P146 lost member by

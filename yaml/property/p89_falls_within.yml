@@ -2,4 +2,4 @@
 label: P89 falls within
 domain: e53_place
 range: e53_place
-reverse label: contains
+reverse label: P89 contains

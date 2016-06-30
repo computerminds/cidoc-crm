@@ -2,4 +2,4 @@
 label: P45 consists of
 domain: e18_physical_thing
 range: e57_material
-reverse label: is incorporated in
+reverse label: P45 is incorporated in

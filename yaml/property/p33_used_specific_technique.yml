@@ -4,4 +4,4 @@ domain: e7_activity
 range: e29_design_or_procedure
 superproperties:
   - p16_used_specific_object
-reverse label: was used by
+reverse label: P33 was used by

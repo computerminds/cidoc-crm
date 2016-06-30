@@ -4,4 +4,4 @@ domain: e81_transformation
 range: e77_persistent_item
 superproperties:
   - p93_took_out_of_existence
-reverse label: was transformed by
+reverse label: P124 was transformed by

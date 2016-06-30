@@ -4,4 +4,4 @@ domain: e52_time_span
 range: e49_time_appellation
 superproperties:
   - p1_is_identified_by
-reverse label: identifies
+reverse label: P78 identifies

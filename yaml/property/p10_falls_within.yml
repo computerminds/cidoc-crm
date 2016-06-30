@@ -2,4 +2,4 @@
 label: P10 falls within
 domain: e4_period
 range: e4_period
-reverse label: contains
+reverse label: P10 contains

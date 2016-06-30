@@ -4,4 +4,4 @@ domain: e19_physical_object
 range: e26_physical_feature
 superproperties:
   - p46_is_composed_of
-reverse label: is found on
+reverse label: P56 is found on

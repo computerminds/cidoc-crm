@@ -4,4 +4,4 @@ domain: e85_joining
 range: e74_group
 superproperties:
   - p11_had_participant
-reverse label: gained member by
+reverse label: P144 gained member by

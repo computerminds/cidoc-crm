@@ -2,4 +2,4 @@
 label: P72 has language
 domain: e33_linguistic_object
 range: e56_language
-reverse label: is language of
+reverse label: P72 is language of

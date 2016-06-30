@@ -2,4 +2,4 @@
 label: P44 has condition
 domain: e18_physical_thing
 range: e3_condition_state
-reverse label: is condition of
+reverse label: P44 is condition of

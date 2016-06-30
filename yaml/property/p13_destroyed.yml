@@ -4,4 +4,4 @@ domain: e6_destruction
 range: e18_physical_thing
 superproperties:
   - p93_took_out_of_existence
-reverse label: was destroyed by
+reverse label: P13 was destroyed by

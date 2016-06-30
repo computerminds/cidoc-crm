@@ -4,4 +4,4 @@ domain: e67_birth
 range: e21_person
 superproperties:
   - p11_had_participant
-reverse label: gave birth
+reverse label: P96 gave birth

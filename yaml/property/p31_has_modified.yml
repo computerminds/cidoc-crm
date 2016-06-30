@@ -4,4 +4,4 @@ domain: e11_modification
 range: e24_physical_man_made_thing
 superproperties:
   - p12_occurred_in_the_presence_of
-reverse label: was modified by
+reverse label: P31 was modified by

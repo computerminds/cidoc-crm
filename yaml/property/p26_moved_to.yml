@@ -4,4 +4,4 @@ domain: e9_move
 range: e53_place
 superproperties:
   - p7_took_place_at
-reverse label: was destination of
+reverse label: P26 was destination of

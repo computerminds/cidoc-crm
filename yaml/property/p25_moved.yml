@@ -4,4 +4,4 @@ domain: e9_move
 range: e19_physical_object
 superproperties:
   - p12_occurred_in_the_presence_of
-reverse label: moved by
+reverse label: P25 moved by

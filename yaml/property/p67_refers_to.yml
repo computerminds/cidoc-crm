@@ -2,4 +2,4 @@
 label: P67 refers to
 domain: e89_propositional_object
 range: e1_crm_entity
-reverse label: is referred to by
+reverse label: P67 is referred to by

@@ -4,4 +4,4 @@ domain: e28_conceptual_object
 range: e75_conceptual_object_appellation
 superproperties:
   - p1_is_identified_by
-reverse label: identifies
+reverse label: P149 identifies

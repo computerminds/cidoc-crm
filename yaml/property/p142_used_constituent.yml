@@ -4,4 +4,4 @@ domain: e15_identifier_assignment
 range: e41_appellation
 superproperties:
   - p16_used_specific_object
-reverse label: was used in
+reverse label: P142 was used in

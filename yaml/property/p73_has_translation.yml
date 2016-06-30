@@ -4,4 +4,4 @@ domain: e33_linguistic_object
 range: e33_linguistic_object
 superproperties:
   - p130_shows_features_of
-reverse label: is translation of
+reverse label: P73 is translation of

@@ -4,4 +4,4 @@ domain: e31_document
 range: e1_crm_entity
 superproperties:
   - p67_refers_to
-reverse label: is listed in
+reverse label: P71 is listed in

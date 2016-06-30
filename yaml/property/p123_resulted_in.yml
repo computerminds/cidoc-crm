@@ -4,4 +4,4 @@ domain: e81_transformation
 range: e77_persistent_item
 superproperties:
   - p92_brought_into_existence
-reverse label: resulted from
+reverse label: P123 resulted from

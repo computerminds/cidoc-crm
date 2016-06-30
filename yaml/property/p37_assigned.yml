@@ -4,4 +4,4 @@ domain: e15_identifier_assignment
 range: e42_identifier
 superproperties:
   - p141_assigned
-reverse label: was assigned by
+reverse label: P37 was assigned by

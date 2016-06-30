@@ -2,4 +2,4 @@
 label: P147 curated
 domain: e87_curation_activity
 range: e78_collection
-reverse label: was curated by
+reverse label: P147 was curated by

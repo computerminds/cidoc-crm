@@ -4,4 +4,4 @@ domain: e1_crm_entity
 range: e42_identifier
 superproperties:
   - p1_is_identified_by
-reverse label: is preferred identifier of
+reverse label: P48 is preferred identifier of

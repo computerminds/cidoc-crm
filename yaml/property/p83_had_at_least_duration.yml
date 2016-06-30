@@ -2,4 +2,4 @@
 label: P83 had at least duration
 domain: e52_time_span
 range: e54_dimension
-reverse label: was minimum duration of
+reverse label: P83 was minimum duration of

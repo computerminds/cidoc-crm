@@ -4,4 +4,4 @@ domain: e79_part_addition
 range: e24_physical_man_made_thing
 superproperties:
   - p31_has_modified
-reverse label: was augmented by
+reverse label: P110 was augmented by

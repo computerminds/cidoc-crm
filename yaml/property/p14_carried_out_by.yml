@@ -4,4 +4,4 @@ domain: e7_activity
 range: e39_actor
 superproperties:
   - p11_had_participant
-reverse label: performed
+reverse label: P14 performed

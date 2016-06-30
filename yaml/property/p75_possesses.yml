@@ -2,4 +2,4 @@
 label: P75 possesses
 domain: e39_actor
 range: e30_right
-reverse label: is possessed by
+reverse label: P75 is possessed by

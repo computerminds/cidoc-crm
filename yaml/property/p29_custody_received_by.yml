@@ -4,4 +4,4 @@ domain: e10_transfer_of_custody
 range: e39_actor
 superproperties:
   - p14_carried_out_by
-reverse label: received custody through
+reverse label: P29 received custody through
