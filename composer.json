@@ -9,7 +9,7 @@
         "homepage": "https://github.com/darthsteven"
     }],
     "require": {
-        "symfony/yaml": "~2.8"
+        "symfony/yaml": "^2.8|^3.2"
     },
     "require-dev" : {
       "phpunit/phpunit": "~4.0|~5.0"
