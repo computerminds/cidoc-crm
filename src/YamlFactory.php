@@ -27,11 +27,13 @@ abstract class YamlFactory {
   protected function findFile($basename) {
     // TODO: Only scan directories once and cache the results statically.
     foreach ($this->searchDirectories as $directory) {
-      $directoryIterator = new \RecursiveDirectoryIterator($directory . '/' . $this->getSubfolder());
-      $iterator = new \RecursiveIteratorIterator($directoryIterator);
-      $yamlFiles = new \RegexIterator($iterator, '/^.*' . preg_quote($basename, '/') .'\.y(a)?ml$/i', \RecursiveRegexIterator::GET_MATCH);
-      foreach ($yamlFiles as $file) {
-        return $file[0];
+      if (is_dir($directory . '/' . $this->getSubfolder())) {
+        $directoryIterator = new \RecursiveDirectoryIterator($directory . '/' . $this->getSubfolder());
+        $iterator = new \RecursiveIteratorIterator($directoryIterator);
+        $yamlFiles = new \RegexIterator($iterator, '/^.*' . preg_quote($basename, '/') . '\.y(a)?ml$/i', \RecursiveRegexIterator::GET_MATCH);
+        foreach ($yamlFiles as $file) {
+          return $file[0];
+        }
       }
     }
     return FALSE;
@@ -41,11 +43,13 @@ abstract class YamlFactory {
     $files = array();
     // TODO: Only scan directories once and cache the results statically.
     foreach ($this->searchDirectories as $directory) {
-      $directoryIterator = new \RecursiveDirectoryIterator($directory . '/' . $this->getSubfolder());
-      $iterator = new \RecursiveIteratorIterator($directoryIterator);
-      $yamlFiles = new \RegexIterator($iterator, '/^.+\.y(a)?ml$/i', \RecursiveRegexIterator::GET_MATCH);
-      foreach ($yamlFiles as $file) {
-        $files[$this->getNameFromFilename($file[0])] = $file[0];
+      if (is_dir($directory . '/' . $this->getSubfolder())) {
+        $directoryIterator = new \RecursiveDirectoryIterator($directory . '/' . $this->getSubfolder());
+        $iterator = new \RecursiveIteratorIterator($directoryIterator);
+        $yamlFiles = new \RegexIterator($iterator, '/^.+\.y(a)?ml$/i', \RecursiveRegexIterator::GET_MATCH);
+        foreach ($yamlFiles as $file) {
+          $files[$this->getNameFromFilename($file[0])] = $file[0];
+        }
       }
     }
     return $files;
