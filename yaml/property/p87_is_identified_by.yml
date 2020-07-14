@@ -4,4 +4,5 @@ domain: e53_place
 range: e44_place_appellation
 superproperties:
   - p1_is_identified_by
-contains: identifies
+reverse label: P87 identifies
+
