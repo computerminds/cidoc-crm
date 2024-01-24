@@ -1,0 +1,27 @@
+name: Pull Request Check
+on: [pull_request]
+
+jobs:
+  unit-test:
+    name: Unit testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Cache Composer dependencies
+        uses: actions/cache@v3
+        with:
+          path: /tmp/composer-cache
+          key: ${{ runner.os }}-${{ hashFiles('composer.lock') }}
+
+      - name: Installing dependencies
+        uses: php-actions/composer@v6
+        with:
+          php_version: 7.4
+
+      - name: Running unit test
+        uses: php-actions/phpunit@v3
+        with:
+          version: 5.7
+          php_version: 7.4
