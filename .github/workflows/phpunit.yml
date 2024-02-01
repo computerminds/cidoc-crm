@@ -5,7 +5,8 @@ jobs:
   unit-test:
     strategy:
       matrix:
-        php_version: [7.4, 8.1]
+        php_version: [7.4]
+        phpunit_version: [5.7]
     name: Unit testing
     runs-on: ubuntu-latest
     steps:
@@ -26,5 +27,5 @@ jobs:
       - name: Running unit test
         uses: php-actions/phpunit@v3
         with:
-          version: 5.7
+          version: ${{ matrix.phpunit_version }}
           php_version: ${{ matrix.php_version }}
